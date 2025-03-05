@@ -19,7 +19,7 @@ This is **MaxiHud**, a modification of [bowieHUD](https://gamebanana.com/mods/43
 - Default fonts replaced with TF2 fonts.
 - New Payload icon by [Vexcenot](https://gamebanana.com/members/2134385).
 - Icons for Selbyen by [Aar](https://gamebanana.com/members/1592670).
-- HD item icons, menu event backgrounds, loading screens, and game icon from [Tkain](https://gamebanana.com/members/1582147).
+- HD item icons and game icon from [Tkain](https://gamebanana.com/members/1582147).
 - Support for [Hypnootize’s custom crosshairs](https://github.com/Hypnootize/TF2-HUD-Crosshairs).
 - Fixes and improvements to the bowieHUD v1.6 base.
 - And many more!
@@ -74,12 +74,16 @@ If you dont have a "custom" folder, make one.
 - [**Chuzzy**](https://gamebanana.com/members/1329795) / [**TheIcyStar**](https://gamebanana.com/members/1367671) - [Numerical Health Values](https://gamebanana.com/mods/26718)
 - [**Vexcenot**](https://github.com/Vexcenot) - Payload cart icon from [Middle Mann Centered HUD](https://github.com/Vexcenot/-middle-mann)
 - [**Aarmastah**](https://gamebanana.com/members/1592670) - [Selbyen HUD Icons](https://gamebanana.com/mods/459755)
-- [**Tkain**](https://gamebanana.com/members/1582147) - [Absolutely HD Item Icons](https://gamebanana.com/mods/316151), [HD Menu Event Backgrounds](https://gamebanana.com/mods/406953), [HD Loading Screens](https://gamebanana.com/mods/285046) and [HD Game Icon](https://gamebanana.com/mods/370615)
+- [**Tkain**](https://gamebanana.com/members/1582147) - [Absolutely HD Item Icons](https://gamebanana.com/mods/316151) and [HD Game Icon](https://gamebanana.com/mods/370615)
 - [**Bunslinger**](https://gamebanana.com/members/1428879) - [TF2 Secondary Font Fix](https://gamebanana.com/mods/466197)
 - [**lightwo**](https://gamebanana.com/members/1924200) - [Disable Surveys](https://gamebanana.com/mods/390865)
 - [**SexyLion**](https://gamebanana.com/members/1749671) - [Music player and buttons](https://gamebanana.com/mods/576607)
 - [**pilso**](https://gamebanana.com/members/1664112) / [**The True Milkman**](https://gamebanana.com/members/2286260) - Quickplay menu based on [Quickplay Over Competitive Menu](https://gamebanana.com/mods/546791) and OldVsNew HUD
 - [**Eminoma**](https://tf2classic.com/) - Team Fortress 2 Classic vote icons
+
+## Special thanks to
+
+- [**Niterux**](https://github.com/Niterux)
 
 # License
 
