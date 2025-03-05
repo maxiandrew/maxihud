@@ -52,8 +52,8 @@
 		"xpos"			"238" // HB bg xpos
 		"ypos"			"287" // HB bg ypos
 		"zpos"			"3"
-		"wide"			"30" // HB bg size
-		"tall"			"30"// HB bg size
+		"wide"			"29" // HB bg size
+		"tall"			"29"// HB bg size
 		"visible"		"1" // HB enabled
 		"enabled"		"1" // HB enabled
 		"Alpha"			"255" // HB enabled
@@ -67,8 +67,8 @@
 		"xpos"			"238"
 		"ypos"			"287"
 		"zpos"			"3"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"29"
+		"tall"			"29"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
