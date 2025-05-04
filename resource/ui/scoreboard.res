@@ -222,7 +222,11 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"textAlignment"		"center"
+			"xpos"				"73"
+			"ypos"				"20"
+			"wide"				"40"			
+			"visible"			"1"
 		}
 	}
 	"BlueTeamScoreDropshadow"
@@ -1742,7 +1746,7 @@
 		"wide"			"539"
 		"tall"			"150"
 		"visible"		"1"
-										
+
 		"SelectHintIcon"
 		{
 			"ControlName"	"CExLabel"

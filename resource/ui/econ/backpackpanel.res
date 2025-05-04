@@ -66,6 +66,7 @@
 				"font"				"HudFontSmallestBold"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+                "button_activation_type"        "2"				
 			}
 
 			"New"
@@ -453,7 +454,8 @@
 		"tabPosition"	"0"
 		"labelText"		"&D >"
 		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
+		"textinsetx"	"5"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nextpage"

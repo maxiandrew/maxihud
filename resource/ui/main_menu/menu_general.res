@@ -1301,7 +1301,7 @@ Scheme
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
 		"ypos"			"420"
-		"zpos"			"-5-"
+		"zpos"			"-49"
 		"wide"			"f0"
 		"tall"			"10"
 		"visible"		"1"

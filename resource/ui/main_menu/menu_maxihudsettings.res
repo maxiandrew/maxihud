@@ -5,10 +5,10 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"				"SafeMode"
 		"xpos"					"c155"
-		"ypos"					"275"
+		"ypos"					"255"
 		"zpos"					"1"
 		"wide"					"240"
-		"tall"					"140"
+		"tall"					"160"
 		"visible"				"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"0"
@@ -136,9 +136,121 @@
 			"enabled"		"1"
 		}
 		
+		// TEAM STATUS BAR
+		//-------------------------------------------------------
+	
+		"TeamStatusBarText"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"			"TeamStatusBarText"
+			"labelText"			"Team status bar"
+			"font"				"HudFontSmallest"
+			"xpos"				"20"
+			"ypos"				"55"
+			"zpos"				"0"
+			"wide"				"150"
+			"tall"				"12"
+			"textAlignment"		"west"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"fgcolor_override" 	"TanLight"
+		}
+
+		"TeamStatusBarOnButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"TeamStatusBarOnButton"
+			"xpos"				"160"
+			"ypos"				"55"
+			"zpos"				"10"
+			"wide"				"12"
+			"tall"				"12"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"labeltext"			""
+			"font"				"HudFontSmallBold"
+			"textAlignment"		"center"
+			"dulltext"			"0"
+			"brighttext"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"Command"			"engine tf_use_match_hud 1"
+			"actionsignallevel"	"2"
+
+			"paintbackground"	"0"
+
+			"image_drawcolor"	"76 107 34 255"
+			"image_armedcolor"	"94 150 49 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../vgui/replay/thumbnails/circle"
+				"scaleImage"	"1"
+			}
+		}
+		
+		"TeamStatusBarOffButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"TeamStatusBarOffButton"
+			"xpos"				"200"
+			"ypos"				"55"
+			"zpos"				"10"
+			"wide"				"12"
+			"tall"				"12"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"labeltext"			""
+			"font"				"HudFontSmallBold"
+			"textAlignment"		"center"
+			"dulltext"			"0"
+			"brighttext"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"Command"			"engine tf_use_match_hud 0"
+			"actionsignallevel"	"2"
+
+			"paintbackground"	"0"
+
+			"image_drawcolor"	"99 36 33 225"
+			"image_armedcolor"	"154 30 22 225"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../vgui/replay/thumbnails/circle"
+				"scaleImage"	"1"
+			}
+		}
+		
 		// MINIMAL KILLFEED
 		//-------------------------------------------------------
-		
+
 		"MinimalKillfeedText"
 		{
 			"ControlName"		"CExLabel"
@@ -146,7 +258,7 @@
 			"labelText"			"Minimal killfeed (12 max)"
 			"font"				"HudFontSmallest"
 			"xpos"				"20"
-			"ypos"				"55"
+			"ypos"				"75"
 			"zpos"				"0"
 			"wide"				"150"
 			"tall"				"12"
@@ -163,7 +275,7 @@
 			"ControlName"		"CExImageButton"
 			"fieldName"			"MinimalKillfeedOnButton"
 			"xpos"				"160"
-			"ypos"				"55"
+			"ypos"				"75"
 			"zpos"				"10"
 			"wide"				"12"
 			"tall"				"12"
@@ -208,7 +320,7 @@
 			"ControlName"		"CExImageButton"
 			"fieldName"			"MinimalKillfeedOffButton"
 			"xpos"				"200"
-			"ypos"				"55"
+			"ypos"				"75"
 			"zpos"				"10"
 			"wide"				"12"
 			"tall"				"12"
@@ -231,7 +343,7 @@
 			
 			"image_drawcolor"	"99 36 33 225"
 			"image_armedcolor"	"154 30 22 225"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -246,11 +358,11 @@
 				"image"			"../vgui/replay/thumbnails/circle"
 				"scaleImage"	"1"
 			}
-		}
+		}	
 		
 		// PLAYER MODEL IN HUD
 		//-------------------------------------------------------
-		
+
 		"PlayerModelText"
 		{
 			"ControlName"		"CExLabel"
@@ -258,7 +370,7 @@
 			"labelText"			"Player model in HUD"
 			"font"				"HudFontSmallest"
 			"xpos"				"20"
-			"ypos"				"75"
+			"ypos"				"95"
 			"zpos"				"0"
 			"wide"				"150"
 			"tall"				"12"
@@ -275,7 +387,7 @@
 			"ControlName"		"CExImageButton"
 			"fieldName"			"PlayerModelOnButton"
 			"xpos"				"160"
-			"ypos"				"75"
+			"ypos"				"95"
 			"zpos"				"10"
 			"wide"				"12"
 			"tall"				"12"
@@ -293,9 +405,9 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"engine cl_hud_playerclass_use_playermodel 1"
 			"actionsignallevel"	"2"
-			
+
 			"paintbackground"	"0"
-			
+		
 			"image_drawcolor"	"76 107 34 255"
 			"image_armedcolor"	"94 150 49 255"
 			
@@ -314,13 +426,13 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"PlayerModelOffButton"
 		{
 			"ControlName"		"CExImageButton"
 			"fieldName"			"PlayerModelOffButton"
 			"xpos"				"200"
-			"ypos"				"75"
+			"ypos"				"95"
 			"zpos"				"10"
 			"wide"				"12"
 			"tall"				"12"
@@ -370,7 +482,7 @@
 			"labelText"			"Demo recording"
 			"font"				"HudFontSmallest"
 			"xpos"				"20"
-			"ypos"				"95"
+			"ypos"				"115"
 			"zpos"				"0"
 			"wide"				"150"
 			"tall"				"12"
@@ -381,13 +493,13 @@
 			"enabled"			"1"
 			"fgcolor_override" 	"TanLight"
 		}
-		
+			
 		"DemoRecordingOnButton"
 		{
 			"ControlName"		"CExImageButton"
 			"fieldName"			"DemoRecordingOnButton"
 			"xpos"				"160"
-			"ypos"				"95"
+			"ypos"				"115"
 			"zpos"				"10"
 			"wide"				"12"
 			"tall"				"12"
@@ -407,10 +519,10 @@
 			"actionsignallevel"	"2"
 			
 			"paintbackground"	"0"
-			
+
 			"image_drawcolor"	"76 107 34 255"
 			"image_armedcolor"	"94 150 49 255"
-			
+		
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -426,13 +538,13 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"DemoRecordingOffButton"
 		{
 			"ControlName"		"CExImageButton"
 			"fieldName"			"DemoRecordingOffButton"
 			"xpos"				"200"
-			"ypos"				"95"
+			"ypos"				"115"
 			"zpos"				"10"
 			"wide"				"12"
 			"tall"				"12"
@@ -450,12 +562,12 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"engine ds_enable 0"
 			"actionsignallevel"	"2"
-			
+
 			"paintbackground"	"0"
-			
+
 			"image_drawcolor"	"99 36 33 225"
 			"image_armedcolor"	"154 30 22 225"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -470,7 +582,7 @@
 				"image"			"../vgui/replay/thumbnails/circle"
 				"scaleImage"	"1"
 			}
-		}
+		}	
 		
 		// STAT TRACKING
 		//-------------------------------------------------------
@@ -482,7 +594,7 @@
 			"labelText"			"Stat tracking"
 			"font"				"HudFontSmallest"
 			"xpos"				"20"
-			"ypos"				"115"
+			"ypos"				"135"
 			"zpos"				"0"
 			"wide"				"150"
 			"tall"				"12"
@@ -493,13 +605,13 @@
 			"enabled"			"1"
 			"fgcolor_override" 	"TanLight"
 		}
-		
+
 		"StatTrackingOnButton"
 		{
 			"ControlName"		"CExImageButton"
 			"fieldName"			"StatTrackingOnButton"
 			"xpos"				"160"
-			"ypos"				"115"
+			"ypos"				"135"
 			"zpos"				"10"
 			"wide"				"12"
 			"tall"				"12"
@@ -517,12 +629,12 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"engine sv_cheats 0"
 			"actionsignallevel"	"2"
-			
+
 			"paintbackground"	"0"
-			
+
 			"image_drawcolor"	"76 107 34 255"
 			"image_armedcolor"	"94 150 49 255"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -538,13 +650,13 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"StatTrackingOffButton"
 		{
 			"ControlName"		"CExImageButton"
 			"fieldName"			"StatTrackingOffButton"
 			"xpos"				"200"
-			"ypos"				"115"
+			"ypos"				"135"
 			"zpos"				"10"
 			"wide"				"12"
 			"tall"				"12"
@@ -562,12 +674,12 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"			"engine sv_cheats 1"
 			"actionsignallevel"	"2"
-			
+
 			"paintbackground"	"0"
 			
 			"image_drawcolor"	"99 36 33 225"
 			"image_armedcolor"	"154 30 22 225"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -583,5 +695,5 @@
 				"scaleImage"	"1"
 			}
 		}
-	}	
-}	
+	}
+}
