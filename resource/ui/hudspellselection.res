@@ -4,6 +4,8 @@
 	{
 		"xpos"			"c170"
 		"ypos"			"c50"
+		"xpos_minmode"	"r105"
+		"ypos_minmode"	"r130"
 	}
 
 	

@@ -1,14 +1,10 @@
 "UnlitGeneric"
 {
-<<<<<<<< HEAD:materials/vgui/replay/thumbnails/hud/checkmark.vmt
-	"$baseTexture" "vgui\replay\thumbnails\hud\checkmark"
-========
-	"$baseTexture" "vgui\replay\thumbnails\hud\vote_yes"
->>>>>>>> b1535a3c19002e147604f25397f4363d4e25a475:materials/vgui/replay/thumbnails/hud/vote_yes.vmt
+
 	"$translucent" 1
-	"$alpha" 1
-	"$vertexalpha" "1"
-	"$ignorez"     "1"
-	"$no_fullbright" "1"	
-	"$vertexcolor" "1"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$basetexture" "vgui/replay/thumbnails/hud/checkmark"
 }

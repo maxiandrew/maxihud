@@ -1,0 +1,5 @@
+In the [Options] folder, simply copy and paste one of the customization files inside the option folders into this folder.
+
+Make sure you delete the default files before doing so.
+
+Default files are specified with "_default" at the end of the file's name.

@@ -248,14 +248,14 @@
 			}
 		}
 		
-		// MINIMAL KILLFEED
+		// CORNERED HUD
 		//-------------------------------------------------------
 
-		"MinimalKillfeedText"
+		"CorneredHUDText"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"MinimalKillfeedText"
-			"labelText"			"Minimal killfeed (12 max)"
+			"fieldName"			"CorneredHUDText"
+			"labelText"			"Cornered HUD"
 			"font"				"HudFontSmallest"
 			"xpos"				"20"
 			"ypos"				"75"
@@ -270,10 +270,10 @@
 			"fgcolor_override" 	"TanLight"
 		}
 		
-		"MinimalKillfeedOnButton"
+		"CorneredHUDOnButton"
 		{
 			"ControlName"		"CExImageButton"
-			"fieldName"			"MinimalKillfeedOnButton"
+			"fieldName"			"CorneredHUDOnButton"
 			"xpos"				"160"
 			"ypos"				"75"
 			"zpos"				"10"
@@ -315,10 +315,10 @@
 			}
 		}
 		
-		"MinimalKillfeedOffButton"
+		"CorneredHUDOffButton"
 		{
 			"ControlName"		"CExImageButton"
-			"fieldName"			"MinimalKillfeedOffButton"
+			"fieldName"			"CorneredHUDOffButton"
 			"xpos"				"200"
 			"ypos"				"75"
 			"zpos"				"10"

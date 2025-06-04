@@ -7,25 +7,13 @@
 		"enabled"		"1"
 		"xpos"			"c-30"
 		"ypos"			"c82"
+		"xpos_minmode"	"r115"
+		"ypos_minmode"	"c197"
 		"wide"			"60"
 		"tall"			"15"
 		"MeterFG"		"TanLight"
 		"MeterBG"		"TanDark"
 	}
-	
-//	"ItemEffectMeterBG"
-//	{
-//		"ControlName"	"ImagePanel"
-//		"fieldName"		"ItemEffectMeterBG"
-//		"xpos"			"0"
-//		"ypos"			"0"
-//		"zpos"			"0"
-//		"wide"			"60"
-//		"tall"			"15"
-//		"visible"		"1"
-//		"enabled"		"1"
-//		"fillcolor"	"0 0 0 127"
-//	}
 
 	"ItemEffectMeterBG"
 	{
@@ -103,7 +91,7 @@
         "tall"                  "4"    
         "visible"               "1"
         "enabled"              	"1"
-        "image"            		"replay/thumbnails/modulate/modulate"
+        "image"            		"replay/thumbnails/item_meter_colour"
         "scaleimage"            "1"
         "drawcolor"             "TanLight"
         "proportionaltoparent"  "1"

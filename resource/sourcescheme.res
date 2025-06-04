@@ -41,7 +41,7 @@ Scheme
 		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
 	}
 	BaseSettings
-	{
+	{		
 		// scheme-specific colors
 		Border.Bright					"TFTanLightDark"	// the lit side of a control
 		Border.Dark						"TFTanLightDark"		// the dark/unlit side of a control
@@ -77,14 +77,30 @@ Scheme
 		RadioButton.SelectedTextColor	"TFTextBright"
 		RadioButton.ArmedTextColor	"TFTextMedium"
 		
-		Frame.BgColor					"TFDarkBrown"
-		Frame.OutOfFocusBgColor			"TFDarkBrownTransparent"
-		FrameGrip.Color1				"TFTanMedium"
+		Frame.TitleTextInsetX			16
+		Frame.ClientInsetX				8
+		Frame.ClientInsetY				6
+		Frame.AutoSnapRange				"0"
+		Frame.FocusTransitionEffectTime   "0.2"
+		Frame.BgColor					"Blank"
+		Frame.OutOfFocusBgColor			"Blank"
+
+		FrameSystemButton.FgColor		"Blank"
+		FrameSystemButton.BgColor		"Blank"
+		FrameSystemButton.Icon			"replay/thumbnails/bg_images/icon_tf"
+		FrameSystemButton.DisabledIcon	"replay/thumbnails/bg_images/icon_tf_disabled"
+		
+		FrameGrip.Color1				"TFTanLight"
 		FrameGrip.Color2				"TFDarkBrown"
+		
 		FrameTitleButton.FgColor		"TFTanBright"
-		FrameTitleBar.Font			"DefaultLarge"		[$WIN32]
+		
+		FrameTitleBar.Font				"DefaultLarge"		[!$OSX]
 		FrameTitleBar.TextColor			"TFTanBright"
 		FrameTitleBar.DisabledTextColor	"TFTanLight"
+		
+		FrameTitleButton.FgColor		"TFTanBright"
+		FrameTitleButton.DisabledFgColor	"TFTanLight"
 		
 		Label.TextDullColor				"TFTextDull"
 		Label.TextColor					"TFTextBright"
@@ -99,8 +115,8 @@ Scheme
 		ListPanel.SelectedBgColor			"SelectionBG"
 		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
 		
-		MainMenu.TextColor			"TanLight"			[$WIN32]
-		MainMenu.ArmedTextColor		"117 107 94 255"	[$WIN32]
+		MainMenu.TextColor			"TanLight"			[!$OSX]
+		MainMenu.ArmedTextColor		"117 107 94 255"	[!$OSX]
 		MainMenu.Inset				"32"
 		
 		Menu.TextInset					"6"
@@ -110,16 +126,31 @@ Scheme
 		Menu.ArmedBgColor		"TFOrangeBright"
 		Menu.DividerColor		"BorderDark"
 		
-		ScrollBarButton.FgColor				"TFDarkBrown"
-		ScrollBarButton.BgColor				"TFTanLight"
-		ScrollBarButton.ArmedFgColor		"TFDarkBrown"
-		ScrollBarButton.ArmedBgColor		"TFTanBright"
-		ScrollBarButton.DepressedFgColor	"TFDarkBrown"
-		ScrollBarButton.DepressedBgColor	"TFTanLight"
-
-		ScrollBarSlider.BgColor				"TFTanMedium"		// this isn't really used
-		ScrollBarSlider.FgColor				"TFTanLight"		// handle with which the slider is grabbed
+		Panel.BgColor	"Blank"
 		
+		PropertySheet.TextColor         "TFTextBlack"
+		PropertySheet.SelectedTextColor      "TFTextBright"
+		//PropertySheet.BgColor	"UNKNOWN" // Doesn't work
+		//PropertySheet.SelectedBgColor	"UNKNOWN" // Doesn't work
+		PropertySheet.TransitionEffectTime   "0.2"
+		
+		ScrollBar.Wide					17
+		
+		ScrollBarButton.FgColor				"TFTanLight"
+		ScrollBarButton.BgColor				"Blank"
+		ScrollBarButton.ArmedFgColor		"TFTanLight"
+		ScrollBarButton.ArmedBgColor		"Blank"
+		ScrollBarButton.DepressedFgColor	"TFTanLight"
+		ScrollBarButton.DepressedBgColor	"Blank"
+
+		ScrollBarSlider.BgColor				"Blank"
+		ScrollBarSlider.FgColor				"TFTanLight"
+		
+		SectionedListPanel.HeaderTextColor	"TFTextBright"
+		SectionedListPanel.DividerColor		"TFTextMedium"
+		SectionedListPanel.TextColor		"TFTextLight"
+		SectionedListPanel.BrightTextColor	"TFTextBright"
+
 		Slider.NobColor				"TFTanLight"		
 		Slider.TextColor			"TFTextBright"
 		Slider.TrackColor			"ListBG"
@@ -129,6 +160,381 @@ Scheme
 		TextEntry.TextColor			        "TFTextBright"
 		TextEntry.DisabledTextColor	        "TFTextMedium"
 		TextEntry.SelectedBgColor	        "TFOrangeBright"
+	}
+	
+	Borders
+	{
+		FrameBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../vgui/replay/thumbnails/bg_images/vgui_bg"
+			"src_corner_height"		"16"				// pixels inside the image
+			"src_corner_width"		"16"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"
+		}
+		
+		BaseBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+			
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		PropertySheetBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+			
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		TabBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+			
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		TabActiveBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+			
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		ButtonBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+			
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		ButtonKeyFocusBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+			
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		ButtonDepressedBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+			
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		ScrollBarButtonBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		ScrollBarButtonDepressedBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
 	}
 	
 	Fonts
@@ -145,48 +551,7 @@ Scheme
 				"dropshadow" "1"
 			}
 		}
-		"Default"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"17"
-				"weight"	"500"
-				"antialias" "1"
-			}
-		}
-		"DefaultSmall"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"14"
-				"weight"	"500"
-				"antialias" "1"
-			}
-		}
-		"DefaultVerySmall"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"14"
-				"weight"	"0"
-				"antialias" "1"
-			}
-		}
-		"DefaultLarge"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"dropshadow" "1"
-			}
-		}
+		
 		"MenuLarge"
 		{
 			"1"	[$X360]
@@ -205,7 +570,52 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+
+		"Default"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"17"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		"DefaultLarge"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 				"dropshadow" "1"
+			}
+		}
+		
+		"DefaultSmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		"DefaultVerySmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -266,24 +676,118 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-	}
 
+		AchievementItemTitle	[!$OSX]
+		{
+			"1"
+			{
+				"name"		"Arial" [!$OSX]
+				"name"		"Verdana Bold" [$OSX]
+				"weight"		"1500"
+				"tall"			"16" [!$OSX]
+				"tall"			"18" [$OSX]
+				"antialias"		"1"
+			}
+		}
+		
+		AchievementItemTitleLarge	[!$OSX]
+		{
+			"1"
+			{
+				"name"		"Arial" [!$OSX]
+				"name"		"Verdana Bold" [$OSX]
+				"weight"		"1500"
+				"tall"			"18" [!$OSX]
+				"tall"			"19" [$OSX]
+				"antialias"		"1"
+			}
+		}
+		
+		AchievementItemDescription	[!$OSX]
+		{
+			"1"
+			{
+				"name"		"Arial" [!$OSX]
+				"name"		"Verdana" [$OSX]
+				"weight"		"1000"
+				"tall"			"14" [!$OSX]
+				"tall"			"12" [$OSX]
+				"antialias"		"1" [!$OSX]
+			}
+		}
+
+	}
 	
 	CustomFontFiles
 	{
-		"9"
+		"6" 
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
+			"turkish"
+			{
+				"range" "0x0000 0x015F"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0x00F6"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0x00FC"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0x021B"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x017C"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0x00F8"
+			}
+			"danish"
+			{
+				"range" "0x0000 0x00F8"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0x0171"
+			}
+			"german"
+			{
+				"range" "0x0000 0x00FC"
+			}
+			"french"
+			{
+				"range" "0x0000 0x0178"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0x017E"
+			}
+			"czech"
+			{
+				"range" "0x0000 0x017E"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0x0451"
+			}
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
-			}
+				"range" "0x0000 0x0451"
+			}	
 		}
-		"10"
-		{
-			"font" "resource/TF2secondary.ttf"
-			"name" "TF2 Secondary"
-		}
+		"10"		"resource/linux_fonts/DejaVuSans.ttf"
+		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }

@@ -371,7 +371,7 @@
 		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
-		"Command"			"armory"
+		"Command"			"url https://wiki.teamfortress.com/wiki/Weapons"
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"

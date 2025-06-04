@@ -1,0 +1,6 @@
+"unlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/bg_images/icon_tf"
+	"$translucent" 1
+	"$ignorez" 1
+}

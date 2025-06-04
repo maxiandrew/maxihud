@@ -20,7 +20,6 @@ sv_unlockedchapters 99
 tf_hud_target_id_alpha 230
 tf_hud_show_servertimelimit 1
 sv_allow_point_servercommand always
-sv_use_steam_networking 0
 exec playlistbuttons.cfg
 
 // Disable tutorials

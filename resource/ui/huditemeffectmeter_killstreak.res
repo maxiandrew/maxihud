@@ -7,6 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"c-72"
 		"ypos"			"c82"
+		"xpos_minmode"	"r50"
+		"ypos_minmode"	"10"		
 		"wide"			"40"
 		"tall"			"24"
 		"MeterFG"		"White"

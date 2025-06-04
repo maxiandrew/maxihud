@@ -5,10 +5,16 @@
 		"delta_item_x"			"6"
 		"delta_item_start_y"	"22"
 		"delta_item_end_y"		"42"
-		"PositiveColor"			"PositiveNumbers"
-		"NegativeColor"			"NegativeNumbers"
+		
+		"delta_item_x_minmode"			"66"
+		"delta_item_start_y_minmode"	"0"
+		"delta_item_end_y_minmode"		"0"
+		
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMediumBoldShadow"
+
+		"PositiveColor"			"PositiveNumbers"
+		"NegativeColor"			"NegativeNumbers"		
 	}
 	
 	"ItemEffectMeterBG"

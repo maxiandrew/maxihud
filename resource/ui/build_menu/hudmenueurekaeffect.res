@@ -25,8 +25,8 @@
 		"zpos"			"1"
 		"wide"			"35"
 		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
 		"iconColor"		"255 255 255 255"
@@ -41,8 +41,8 @@
 		"zpos"			"0"
 		"wide"			"35"
 		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
 		"iconColor"		"0 0 0 255"
@@ -53,7 +53,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontGiantBold"
-		"xpos"			"41"			// align me to the left edge of the first selection
+		"xpos"			"20"			// align me to the left edge of the first selection
 		"ypos"			"-2"
 		"zpos"			"2"
 		"wide"			"300"
@@ -74,7 +74,7 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
-		"xpos"			"43"			// align me to the left edge of the first selection
+		"xpos"			"22"			// align me to the left edge of the first selection
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"300"

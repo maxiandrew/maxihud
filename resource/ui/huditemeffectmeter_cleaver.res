@@ -7,10 +7,12 @@
 		"enabled"		"1"
 		"xpos"			"c-30"
 		"ypos"			"c98"
-		"wide"			"96"
+		"xpos_minmode"	"r115"
+		"ypos_minmode"	"c215"
+		"wide"			"60"
 		"tall"			"15"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"TanDark"
 	}
 	
 	"ItemEffectMeterBG"
@@ -89,7 +91,7 @@
         "tall"                  "4"    
         "visible"               "1"
         "enabled"              	"1"
-        "image"            		"replay/thumbnails/modulate/modulate"
+        "image"            		"replay/thumbnails/item_meter_colour"
         "scaleimage"            "1"
         "drawcolor"             "TanLight"
         "proportionaltoparent"  "1"

@@ -1,0 +1,7 @@
+"unlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/bg_images/vgui_bg"
+	"$alphatest" 1
+	"$allowAlphaToCoverage" 1
+	"$ignorez" 1
+}

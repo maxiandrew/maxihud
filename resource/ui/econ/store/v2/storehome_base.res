@@ -6,6 +6,7 @@
 		"fieldName"		"StorePage"
 		"xpos"			"0"
 		"ypos"			"40"
+		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -255,7 +256,7 @@
 			"proportiontoparent"	"1"
 		}
 	}
-		
+
 	"ReloadSchemeButton"
 	{
 		"ControlName"	"CExButton"

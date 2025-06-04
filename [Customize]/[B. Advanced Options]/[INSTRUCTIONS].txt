@@ -1,0 +1,7 @@
+These specific customizations require the whole HUD file to be replaced. (Due to technical reasons)
+
+Go into an option folder, copy the HUD file inside the folder and paste it into it's source folder.
+You can use the "PASTE ME HERE" shortcut inside the folder to help you paste it into the correct location.
+Then confirm that you would like to replace the file.
+
+To restore default files, find option folders containing "(Default)".

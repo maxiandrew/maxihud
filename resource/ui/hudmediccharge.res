@@ -17,6 +17,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"west"
+		"textAlignment_minmode"	"east"		
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontGiantBold"
@@ -28,6 +29,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
 		"xpos"			"25"
+		"xpos_minmode"	"95"
 		"ypos"			"15"
 		"zpos"			"2"
 		"wide"			"30"
@@ -233,6 +235,7 @@
 	{
 		"ControlName"  	"Panel"
 		"xpos"  		"53"
+		"xpos_minmode"	"58"
 		"ypos"  		"16"
 	}	
 	
