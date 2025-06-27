@@ -22,7 +22,7 @@ Scheme
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"Command"		"engine hud_reloadscheme; snd_restart"
+		"Command"		"engine hud_reloadscheme; toggle mat_aaquality; snd_restart"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

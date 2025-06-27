@@ -225,7 +225,7 @@
 			"textinsetx"		"50"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"command"			"engine toggle mat_aaquality; map tr_walkway_rc2"
+			"command"			"engine toggle mat_aaquality; map tr_walkway_h1"
 			"actionsignallevel"	"3"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
