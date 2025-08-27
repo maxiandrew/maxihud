@@ -20,7 +20,8 @@ sv_unlockedchapters 99
 tf_hud_target_id_alpha 230
 tf_hud_show_servertimelimit 1
 sv_allow_point_servercommand always
-exec playlistbuttons.cfg
+exec music.cfg
+wait 10; snd_restart; wait 10; randommusic
 
 // Disable tutorials
 cl_showhelp 0

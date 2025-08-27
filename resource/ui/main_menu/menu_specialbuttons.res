@@ -1,10 +1,10 @@
 Scheme
 {
-	"ReloadSchemeButton"
+	"RandomMusicButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ReloadSchemeButton"
-		"xpos"			"745"
+		"fieldName"		"RandomMusicButton"
+		"xpos"			"696"
 		"ypos"			"437"
 		"zpos"			"1"
 		"wide"			"30"
@@ -14,7 +14,103 @@ Scheme
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
+		"labelText"		""	
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"engine randommusic"
+
+		"navUp"			"VRModeButton"
+		"navLeft"		"QuitButton"
+		"navRight"		"AchievementsButton"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"PaintBackgroundType" "0"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"5"
+			"ypos"			"5"
+			"zpos"			"1"
+			"wide"			"15"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../vgui/replay/thumbnails/glyph_music"
+			"scaleImage"	"1"
+		}			
+	}
+	
+	"ToggleMusicButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ToggleMusicButton"
+		"xpos"			"721"
+		"ypos"			"437"
+		"zpos"			"2"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
 		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"engine togglemusic; togglemusic"
+
+		"navUp"			"VRModeButton"
+		"navLeft"		"AchievementsButton"
+		"navRight"		"CoachPlayersButton"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuSubButtonBorder"		
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"5"
+			"ypos"			"5"
+			"zpos"			"1"
+			"wide"			"15"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../vgui/replay/thumbnails/glyph_music_off"
+			"scaleImage"	"1"
+		}				
+	}
+
+	"ReloadSchemeButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ReloadSchemeButton"
+		"xpos"			"745"
+		"ypos"			"437"
+		"zpos"			"1"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""	
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
 		"textinsetx"	"25"
@@ -26,6 +122,8 @@ Scheme
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"SubImage"
@@ -58,7 +156,7 @@ Scheme
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
+		"labelText"		""	
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -69,6 +167,7 @@ Scheme
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
 		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"235 226 202 255"
@@ -103,7 +202,7 @@ Scheme
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
+		"labelText"		""	
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -128,148 +227,6 @@ Scheme
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"glyph_steamworkshop"
-			"scaleImage"	"1"
-		}				
-	}
-	
-//----------------------------------------------------	
-	
-	"MusicPrevButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"MusicPrevButton"
-		"xpos"			"c230"
-		"ypos"			"437"
-		"zpos"			"1"
-		"wide"			"28"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine tf2song"
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"CoachPlayersButton"
-		"navRight"		"SettingsButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"image_drawcolor"	"235 226 202 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"1"
-			"wide"			"18"
-			"tall"			"18"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../vgui/replay/thumbnails/glyph_muschange_prev"
-			"scaleImage"	"1"
-		}				
-	}	
-
-	"MusicStopButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"MusicStopButton"
-		"xpos"			"c255"
-		"ypos"			"437"
-		"zpos"			"2"
-		"wide"			"27"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine tf2nomusic"
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"AchievementsButton"
-		"navRight"		"CoachPlayersButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuSubButtonBorder"
-		
-		"image_drawcolor"	"235 226 202 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"1"
-			"wide"			"19"
-			"tall"			"19"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../vgui/replay/thumbnails/glyph_musstop"
-			"scaleImage"	"1"
-		}				
-	}
-	
-	"MusicNextButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"MusicNextButton"
-		"xpos"			"c278"
-		"ypos"			"437"
-		"zpos"			"1"
-		"wide"			"29"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine tf2songp"
-
-		"navUp"			"VRModeButton"
-		"navLeft"		"QuitButton"
-		"navRight"		"AchievementsButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"PaintBackgroundType" "0"
-		
-		"image_drawcolor"	"235 226 202 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"7"
-			"ypos"			"4"
-			"zpos"			"1"
-			"wide"			"18"
-			"tall"			"18"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../vgui/replay/thumbnails/glyph_muschange_next"
 			"scaleImage"	"1"
 		}				
 	}

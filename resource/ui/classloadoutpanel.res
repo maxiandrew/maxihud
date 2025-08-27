@@ -479,7 +479,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"glyph_items"
+			"image"			"../vgui/replay/thumbnails/glyph_weapons"
 		}
 	}
 
@@ -509,15 +509,15 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"4"
-			"ypos"			"4"
+			"xpos"			"3"
+			"ypos"			"3"
 			"zpos"			"1"
-			"wide"			"17"
-			"tall"			"17"
+			"wide"			"20"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"../hud/ico_reel"
+			"image"			"../vgui/replay/thumbnails/glyph_taunt"
 		}
 	}
 	
