@@ -291,14 +291,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"16"
+		"xpos"			"10"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
+		"ypos"			"37"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
 		"zpos"			"5"
-		"wide"			"78"
+		"wide"			"90"
 		"wide_hidef"	"300"
 		"wide_lodef"	"300"
 		"tall"			"19"
@@ -311,9 +311,9 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
+		"font"			"HudFontSmallBoldShadow"
+		"font_hidef"	"HudFontSmallBoldShadow"
+		"font_lodef"	"HudFontSmallBoldShadow"
 
 		if_match
 		{

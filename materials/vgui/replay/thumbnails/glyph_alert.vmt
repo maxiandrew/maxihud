@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\glyph_alert"
+	"$vertexalpha" 1
+}

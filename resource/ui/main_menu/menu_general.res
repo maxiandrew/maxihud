@@ -1190,6 +1190,7 @@ Scheme
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
+			"border_default"	"MainMenuSubButtonBorder"
 			"paintbackground"	"1"
 			
 			"defaultFgColor_override" "46 43 42 255"
@@ -1222,11 +1223,11 @@ Scheme
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"197+69"
+		"xpos"			"216+69"
 		"ypos"			"437"
 		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"28"
+		"tall"			"25"
 		"visible"		"1"
 
 		"SubButton"
@@ -1235,7 +1236,7 @@ Scheme
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"p1"
+			"wide"			"28"
 			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -1618,7 +1619,7 @@ Scheme
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_tv"
+			"image"			"../vgui/replay/thumbnails/glyph_demo"
 			"scaleImage"	"1"
 		}				
 	}

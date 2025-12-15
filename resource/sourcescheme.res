@@ -681,7 +681,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
+				"name"		"TF2 Secondary" [!$OSX]
 				"name"		"Verdana Bold" [$OSX]
 				"weight"		"1500"
 				"tall"			"16" [!$OSX]
@@ -694,7 +694,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
+				"name"		"TF2 Secondary" [!$OSX]
 				"name"		"Verdana Bold" [$OSX]
 				"weight"		"1500"
 				"tall"			"18" [!$OSX]
@@ -707,7 +707,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
+				"name"		"TF2 Secondary" [!$OSX]
 				"name"		"Verdana" [$OSX]
 				"weight"		"1000"
 				"tall"			"14" [!$OSX]
@@ -722,7 +722,7 @@ Scheme
 	{
 		"6" 
 		{
-			"font" "resource/TF2Build.ttf"
+			"font" "resource/tf2build.ttf"
 			"name" "TF2 Build"
 			"turkish"
 			{

@@ -571,10 +571,10 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"115"
-		"ypos"			"357"
+		"ypos"			"360"
 		"zpos"			"4"
 		"wide"			"424"
-		"tall"			"20"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -593,10 +593,10 @@
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"			"115"
-		"ypos"			"348"
+		"ypos"			"360"
 		"zpos"			"4"
 		"wide"			"424"
-		"tall"			"20"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -762,7 +762,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"210"
+				"angles_y"		"205"
 				"angles_z"		"0"
 				"origin_x"		"175"
 				"origin_y"		"5"
@@ -1263,6 +1263,11 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			
+			if_mvm
+			{
+				"ypos"			"5"
+			}
 		}
 		"Damage"
 		{
@@ -1280,6 +1285,11 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			
+			if_mvm
+			{
+				"ypos"			"5"
+			}
 		}
 		
 		"InvulnLabel"
@@ -1298,6 +1308,11 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			
+			if_mvm
+			{
+				"ypos"			"15"
+			}
 		}
 		"Invuln"
 		{
@@ -1315,6 +1330,11 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			
+			if_mvm
+			{
+				"ypos"			"15"
+			}
 		}
 
 		"HealingLabel"
@@ -1333,6 +1353,11 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			
+			if_mvm
+			{
+				"ypos"			"25"
+			}
 		}
 		"Healing"
 		{
@@ -1350,7 +1375,12 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-		}		
+		
+			if_mvm
+			{
+				"ypos"			"25"
+			}
+		}
 		
 		"CapturesLabel"
 		{
@@ -1413,6 +1443,11 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			
+			if_mvm
+			{
+				"ypos"			"5"
+			}
 		}
 		"Support"
 		{
@@ -1430,6 +1465,11 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			
+			if_mvm
+			{
+				"ypos"			"5"
+			}
 		}
 		
 		"DefensesLabel"
@@ -1448,6 +1488,11 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
+			
+			if_mvm
+			{
+				"ypos"			"15"
+			}
 		}
 		"Defenses"
 		{
@@ -1465,7 +1510,12 @@
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-		}		
+			
+			if_mvm
+			{
+				"ypos"			"15"
+			}
+		}
 		
 		"DominationLabel"
 		{
@@ -1577,7 +1627,7 @@
 			if_mvm
 			{
 				"xpos"			"300"
-				"ypos"			"20"				
+				"ypos"			"25"				
 			}
 		}
 		"Backstabs"
@@ -1600,9 +1650,9 @@
 			if_mvm
 			{
 				"xpos"			"400"
-				"ypos"			"20"				
+				"ypos"			"25"				
 			}
-		}		
+		}
 
 		"HeadshotsLabel"
 		{
@@ -1623,8 +1673,8 @@
 			
 			if_mvm
 			{
-				"xpos"			"300"
-				"ypos"			"30"				
+				"xpos"			"390"
+				"ypos"			"5"
 			}
 		}
 		"Headshots"
@@ -1646,8 +1696,8 @@
 			
 			if_mvm
 			{
-				"xpos"			"400"
-				"ypos"			"30"				
+				"xpos"			"490"
+				"ypos"			"5"
 			}
 		}
 		
@@ -1670,8 +1720,8 @@
 			
 			if_mvm
 			{
-				"ypos"			"0"				
-			}			
+				"ypos"			"15"	
+			}
 		}
 		"Teleports"
 		{
@@ -1692,7 +1742,7 @@
 			
 			if_mvm
 			{
-				"ypos"			"0"				
+				"ypos"			"15"	
 			}
 		}
 		
@@ -1715,7 +1765,7 @@
 			
 			if_mvm
 			{
-				"ypos"			"10"				
+				"ypos"			"25"
 			}
 		}
 		"Destruction"
@@ -1737,7 +1787,7 @@
 			
 			if_mvm
 			{
-				"ypos"			"10"				
+				"ypos"			"25"
 			}
 		}
 		

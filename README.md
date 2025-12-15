@@ -21,6 +21,8 @@ This is **MaxiHud**, a modification of [bowieHUD](https://gamebanana.com/mods/43
 - Icons for Selbyen by [Aar](https://gamebanana.com/members/1592670).
 - HD item icons from [Tkain](https://gamebanana.com/members/1582147).
 - TF2-style VGUI from [Azarciel](https://gamebanana.com/members/3618549).
+- A Hide button when being revived in MvM from [sigsegv](https://gamebanana.com/members/1423972).
+- Improved casual medals from [AGoJyt](https://gamebanana.com/members/1660549).
 - Support for [Hypnootize’s custom crosshairs](https://github.com/Hypnootize/TF2-HUD-Crosshairs).
 - Fixes and improvements to the bowieHUD v1.6 base.
 - Fully customizable to suit your preferences!
@@ -32,7 +34,7 @@ This is **MaxiHud**, a modification of [bowieHUD](https://gamebanana.com/mods/43
 Once downloaded, go into the ZIP file and put its folder into your "custom" folder inside the "tf" folder.
 
 ```bash
-[Storage directory]\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom
+\steamapps\common\Team Fortress 2\tf\custom
 ```
 
 If you dont have a "custom" folder, make one.
@@ -61,7 +63,6 @@ If you dont have a "custom" folder, make one.
 - [Shotgun Reload Sound Deluxe](https://gamebanana.com/mods/515390)
 - [Item Name Debloater](https://gamebanana.com/mods/560676)
 - [Extended Keyboard Settings Menu](https://gamebanana.com/mods/528934)
-- [Voice Commands Menu+](https://gamebanana.com/mods/589501)
 
 # Authors
 
@@ -79,6 +80,8 @@ If you dont have a "custom" folder, make one.
 - [**lightwo**](https://gamebanana.com/members/1924200) - [Disable Surveys](https://gamebanana.com/mods/390865)
 - [**SexyLion**](https://gamebanana.com/members/1749671) - [Music player and buttons](https://gamebanana.com/mods/576607)
 - [**pilso**](https://gamebanana.com/members/1664112) / [**The True Milkman**](https://gamebanana.com/members/2286260) - Quickplay menu based on [Quickplay Over Competitive Menu](https://gamebanana.com/mods/546791) and OldVsNew HUD
+- [**sigsegv**](https://gamebanana.com/members/1423972) - [MvM revive window "hide" button](https://gamebanana.com/mods/26609)
+- [**AGoJyt**](https://gamebanana.com/members/1660549) - [Fixed Casual medals](https://gamebanana.com/members/1660549)
 - [**Eminoma**](https://tf2classic.com/) - Team Fortress 2 Classic vote icons
 
 ## Special thanks to
@@ -90,12 +93,3 @@ If you dont have a "custom" folder, make one.
 ![Logo](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](creativecommons.org/licenses/by-nc-sa/4.0/).
-
-# Roadmap
-
-This is what I would like to have in my HUD in the future. I'm happy for anyone to tinker with my HUD to include these listed.
-
-- Proper UI scaling for resolutions other than 1920x1080
-- In-game customization options for *HUD positioning*, *width of the player icons in the match status bar* and *[Hypnootize’s custom crosshairs](https://github.com/Hypnootize/TF2-HUD-Crosshairs)*
-
-I may implement your work into the HUD and give you proper credit.
