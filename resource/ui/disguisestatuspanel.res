@@ -7,17 +7,17 @@
 	
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"		
+		"zpos"			"1"	
 		"wide"			"100"
 		"tall"			"100"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"useparentbg"		"1"
+		"useparentbg"	"1"
 
 		"fov"			"54"
-		"start_framed"		"1"
+		"start_framed"	"1"
 
 		"disable_manipulation"	"1"
 
@@ -32,12 +32,12 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"10"
-		"ypos"			"30"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"200"
-		"tall"	 		"32"
-		"autoResize"		"0"
+		"wide"			"165"
+		"tall"	 		"28"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -52,56 +52,16 @@
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
-	}
-
-	"DisguiseNameLabel"
-	{	
-		"ControlName"	"Label"
-		"fieldName"		"DisguiseNameLabel"
-		"font"			"HudFontMediumSmallSecondary"
-		"xpos"			"52"
-		"ypos"			"31"
-		"zpos"			"1"
-		"wide"			"140"
-		"tall"			"24"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%disguisename%"
-		"textAlignment"		"North-West"
-		"dulltext"		"0"
-		"brighttext"		"0"
-	}
-	
-	"WeaponNameLabel"
-	{	
-		"ControlName"	"Label"
-		"fieldName"		"WeaponNameLabel"
-		"font"			"HUDFontSmall"
-		"xpos"			"52"
-		"ypos"			"45"
-		"zpos"			"1"
-		"wide"			"140"
-		"tall"			"24"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%weaponname%"
-		"textAlignment"		"North-West"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"3"	
 	}
 	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"15"
-		"ypos"			"29"
+		"xpos"			"5"
+		"ypos"			"-3"
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"0"
@@ -112,5 +72,60 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}	
+
+	"DisguiseNameLabel"
+	{	
+		"ControlName"	"Label"
+		"fieldName"		"DisguiseNameLabel"
+		"font"			"TFFontSmall"
+		"xpos"			"40"
+		"ypos"			"6"
+		"zpos"			"1"
+		"wide"			"90"
+		"tall"			"8"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%disguisename%"
+		"textAlignment"		"west"
+		"dulltext"		"0"
+		"brighttext"		"0"
+	}
 	
+	"WeaponNameLabel"
+	{	
+		"ControlName"	"Label"
+		"fieldName"		"WeaponNameLabel"
+		"font"			"TFFontSmall"
+		"xpos"			"40"
+		"ypos"			"14"
+		"zpos"			"1"
+		"wide"			"90"
+		"tall"			"8"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%weaponname%"
+		"textAlignment"		"west"
+		"dulltext"		"0"
+		"brighttext"		"0"
+	}
+	
+	"SpyIcon"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"SpyIcon"
+		"xpos"			"130"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"28"
+		"tall"			"28"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"hud_spy_disguise_menu_icon"
+		"iconColor"		"255 255 255 255"
+	}
 }

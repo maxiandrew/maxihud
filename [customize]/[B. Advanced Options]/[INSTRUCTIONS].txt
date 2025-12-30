@@ -1,0 +1,6 @@
+These specific customizations require the whole HUD file to be replaced. (Due to technical reasons)
+
+Go into an option folder, copy the HUD file inside the folder and paste it into "resource\ui".
+Then confirm that you would like to replace the file.
+
+To restore to default files, find option folders containing "(Default)".

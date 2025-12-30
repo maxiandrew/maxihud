@@ -174,7 +174,7 @@
 						"enabled"						"1"
 						"proportionaltoparent"			"1"
 						"use_proportional_insets"		"1"
-						"labelText"						"Enable MaxiCross Settings"
+						"labelText"						"Enable MaxiCross Presets"
 						"font"							"HudFontSmallest"
 						"textAlignment"					"center"
 						"fgcolor"						"TanLight"
@@ -197,7 +197,7 @@
 						"enabled"						"1"
 						"proportionaltoparent"			"1"
 						"use_proportional_insets"		"1"
-						"labelText"						"If you have either MaxiCross or MaxiCross+ installed, selecting ''On'' will configure it to its recommended settings. Choosing ''Off'' reverts it back to default."
+						"labelText"						"If you have either MaxiCross or MaxiCross+ installed, selecting ''On'' will configure it to its recommended presets. Choosing ''Off'' reverts it back to default."
 						"font"							"Default"
 						"textAlignment"					"center"
 						"wrap"							"1"
@@ -656,10 +656,10 @@
 					}
 				}
 
-				"Safe" ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+				"Safety" ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 				{
 					"ControlName"					"EditablePanel"
-					"fieldName"						"Safe"
+					"fieldName"						"Safety"
 					"xpos"							"4"
 					"ypos"							"415"
 					"zpos"							"0"
@@ -686,7 +686,7 @@
 						"enabled"						"1"
 						"proportionaltoparent"			"1"
 						"use_proportional_insets"		"1"
-						"labelText"						"Safe Mode"
+						"labelText"						"Safety Mode"
 						"font"							"HudFontSmallest"
 						"textAlignment"					"center"
 						"fgcolor"						"TanLight"
@@ -709,7 +709,7 @@
 						"enabled"						"1"
 						"proportionaltoparent"			"1"
 						"use_proportional_insets"		"1"
-						"labelText"						"Safe Mode mutes the text and voice chat and hides custom sprays and decals."
+						"labelText"						"Safety Mode mutes the text and voice chat and hides custom sprays and decals."
 						"font"							"Default"
 						"textAlignment"					"center"
 						"wrap"							"1"

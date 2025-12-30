@@ -45,7 +45,7 @@
 		"wide"			"255"
 		"proportionaltoparent"	"1"
 
-		"image_name"		"casual/gametype_arena"
+		"image_name"		"main_menu/main_menu_button_competitive"
 		"button_token"		"#MMenu_PlayList_Competitive_Button"
 		"button_command"	"play_competitive"
 		"desc_token"		"#MMenu_PlayList_Competitive_Desc"
@@ -57,12 +57,33 @@
 		}
 	}
 
+	"QuickplayEntry"
+	{
+		"ControlName"	"CPlayListEntry"
+		"fieldName"		"QuickplayEntry"
+		"xpos"			"0"
+		"ypos"			"103"
+		"tall"			"45"
+		"wide"			"255"
+		"proportionaltoparent"	"1"
+
+		"image_name"		"casual/gametype_arena"
+		"button_token"		"#MMenu_PlayList_Quickplay_Button"
+		"button_command"	"comp_access_info"
+		"desc_token"		"#MMenu_PlayList_Quickplay_Desc"
+
+		if_event
+		{
+			"ypos"			"153"
+		}
+	}
+
 	"MvMEntry"
 	{
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"MvMEntry"
 		"xpos"			"0"
-		"ypos"			"103"
+		"ypos"			"153"
 		"tall"			"45"
 		"wide"			"255"
 		"proportionaltoparent"	"1"
@@ -75,7 +96,7 @@
 
 		if_event
 		{
-			"ypos"			"153"
+			"ypos"			"203"
 		}
 	}
 
@@ -84,7 +105,7 @@
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"ServerBrowserEntry"
 		"xpos"			"0"
-		"ypos"			"153"
+		"ypos"			"203"
 		"tall"			"45"
 		"wide"			"255"
 		"proportionaltoparent"	"1"
@@ -96,7 +117,7 @@
 
 		if_event
 		{
-			"ypos"			"203"
+			"ypos"			"253"
 		}
 	}
 
@@ -105,7 +126,7 @@
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"TrainingEntry"
 		"xpos"			"0"
-		"ypos"			"203"
+		"ypos"			"253"
 		"tall"			"45"
 		"wide"			"255"
 		"proportionaltoparent"	"1"
@@ -117,7 +138,7 @@
 
 		if_event
 		{
-			"ypos"			"253"
+			"ypos"			"303"
 		}
 	}
 
@@ -126,7 +147,7 @@
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CreateServerEntry"
 		"xpos"			"0"
-		"ypos"			"253"
+		"ypos"			"303"
 		"tall"			"45"
 		"wide"			"255"
 		"proportionaltoparent"	"1"
@@ -138,7 +159,7 @@
 
 		if_event
 		{
-			"ypos"			"303"
+			"ypos"			"353"
 		}
 	}
 

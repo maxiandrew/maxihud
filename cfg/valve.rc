@@ -21,7 +21,10 @@ tf_hud_target_id_alpha 230
 tf_hud_show_servertimelimit 1
 sv_allow_point_servercommand always
 exec music.cfg
-wait 10; snd_restart; wait 10; randommusic
+
+//Custom localisation files
+cc_lang maxihud_english
+cc_lang ""
 
 // Disable tutorials
 cl_showhelp 0

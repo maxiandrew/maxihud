@@ -88,10 +88,10 @@
 		"ControlName"		"CExButton"
 		"fieldName"			"StartButton"
 		"xpos"				"48"
-		"ypos"				"170"
+		"ypos"				"175"
 		"zpos"				"100"
 		"wide"				"130"
-		"tall"				"30"
+		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -106,13 +106,5 @@
 		"Command"			"%startcommand%"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
 	}
 }

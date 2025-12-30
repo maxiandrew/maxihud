@@ -1212,20 +1212,225 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountLabel"
-		"xpos"			"c35"
-		"ypos"			"402"
+		"xpos"			"c210"
+		"ypos"			"405"
 		"zpos"			"10"
 		"wide"			"150"
 		"tall"			"18"
 		"autoResize"	"1"
 		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		""
-		"textAlignment"	"left"
+		"labelText"		"#TF_TeamCount"
+		"textAlignment"	"right"
 		"font"			"HudFontMediumSmallSecondary"
 		"fgcolor"		"TanLight"
+	}							
+	
+	"countImage0" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage0"
+		"xpos"			"c390"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}							
+	
+	"countImage1" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage1"
+		"xpos"			"c365"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage2" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage2"
+		"xpos"			"c340"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage3" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage3"
+		"xpos"			"c315"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage4" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage4"
+		"xpos"			"c290"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage5" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage5"
+		"xpos"			"c265"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage6" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage6"
+		"xpos"			"c240"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage7" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage7"
+		"xpos"			"c215"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage8" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage8"
+		"xpos"			"c190"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage9" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage9"
+		"xpos"			"c165"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage10" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage10"
+		"xpos"			"c140"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"localPlayerImage" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"localPlayerImage"
+		"xpos"			"c-355"
+		"ypos"			"5"
+		"zpos"			"9"
+		"wide"			"45"
+		"tall"			"90"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"localPlayerBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"localPlayerBG"
+		"xpos"			"c-360"
+		"ypos"			"20"
+		"zpos"			"9"
+		"wide"			"55"
+		"tall"			"80"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_clear"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/color_panel_clear"
+		"teambg_3"		"../hud/color_panel_clear"
+			
+		"src_corner_height"		"23"			// pixels inside the image
+		"src_corner_width"		"23"
+				
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 	
 	"numScout" [$WIN32]

@@ -139,7 +139,7 @@
 			"textAlignment"	"north"
 			"xpos"			"8"
 			"ypos"			"30"
-			"zpos"			"0"				
+			"zpos"			"0"	
 			"wide"			"190"
 			"tall"			"55"
 			"autoResize"	"0"

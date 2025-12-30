@@ -31,20 +31,19 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"30"
+		"wide"			"200"
+		"tall"	 		"20"
 		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
+		"scaleImage"		"1"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"3"	
 	}
 	"TargetIDBG_Spec_Red"
 	{
@@ -53,20 +52,19 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"30"
+		"wide"			"200"
+		"tall"	 		"20"
 		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
-		"image_lodef"	"../hud/color_panel_red"
+		"scaleImage"		"1"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"3"	
 	}
 	
 	"TargetNameLabel"

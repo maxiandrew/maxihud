@@ -1,8 +1,8 @@
 //Hitmaker
 event DamagedPlayer
 {
-	Animate Hitmarker Alpha "255"		Linear 0.0 0.0
-	Animate Hitmarker Alpha "0"		Linear 0.0 0.95
+	Animate Hitmarker Alpha "255"				Linear 0.0 0.0
+	Animate Hitmarker Alpha "0"					Linear 0.0 0.95
 }
 
 //===========================================
@@ -10,16 +10,19 @@ event DamagedPlayer
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	Animate	PlayerStatusHealthBonusImage 		Alpha		"255"			Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"				Linear 0.2 0.4
 
 	Animate	PlayerStatusHealthImageOverheal 	Alpha		"255"			Linear 0.0 0.0
 	
-	Animate	PlayerHealthValue					FgColor		"Overheal" Accel 0.0 0.0
-	Animate	OtherPlayerStatusHealthValue		FgColor		"Overheal" Accel 0.0 0.0	
-	Animate PlayerStatusHealthValue 			FgColor		"Overheal" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator 	FgColor		"Overheal" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel 	FgColor		"Overheal" Accel 0.0 0.0
+	Animate	FullScreen_Buff						Alpha		"80"			Linear 0.0 0.075
+	Animate	FullScreen_Buff						Alpha		"30"			Linear 0.125 0.075
+	
+	Animate	PlayerHealthValue					FgColor		"Overheal" 		Accel 0.0 0.0
+	Animate	OtherPlayerStatusHealthValue		FgColor		"Overheal" 		Accel 0.0 0.0	
+	Animate PlayerStatusHealthValue 			FgColor		"Overheal" 		Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator 	FgColor		"Overheal" 		Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel 	FgColor		"Overheal" 		Accel 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -36,6 +39,8 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop 0.0
 	
 	Animate	PlayerStatusHealthImageOverheal		Alpha		"0"				Linear 0.0 0.0
+	
+	Animate FullScreen_Buff						Alpha		"0"				Linear 0.0 0.0	
 	
 	Animate	PlayerHealthValue					FgColor		"TanLight" 		Accel 0.0 0.0
 	Animate	OtherPlayerStatusHealthValue		FgColor		"TanLight" 		Accel 0.0 0.0		
@@ -65,6 +70,9 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthImage			Alpha		"255" 				Linear 0.0 0.075
 	Animate PlayerStatusHealthImage			FgColor		"0 0 0 0" 			Linear 0.125 0.075
 	
+	Animate FullScreen_Hurt					Alpha		"80"				Linear 0.0 0.075
+	Animate FullScreen_Hurt					Alpha		"30"				Linear 0.125 0.075
+	
 	Animate	OtherPlayerStatusHealthValue	FgColor		"NegativeNumbers" 	Linear 0.0 0.0
 	
 	Animate PlayerStatusHealthValue			FgColor		"TanLight" 			Linear 0.0 0.075
@@ -83,8 +91,11 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
+	
 	Animate PlayerStatusHealthValue			FgColor		"TanLight" 			Linear 0.0 0.0
-	Animate	OtherPlayerStatusHealthValue	FgColor		"TanLight" 	Linear 0.0 0.0
+	Animate	OtherPlayerStatusHealthValue	FgColor		"TanLight" 			Linear 0.0 0.0
+	
+	Animate FullScreen_Hurt					Alpha		"0"					Linear 0.0 0.0	
 }
 
 //===========================================
