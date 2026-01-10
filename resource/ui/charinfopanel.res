@@ -166,7 +166,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"&C  Close"
+		"labelText"		"&R  Close"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -187,7 +187,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"	
-			"image"			"replay/thumbnails/hud/key_c_icon"
+			"image"			"replay/thumbnails/hud/key_r_icon"
 		}
 	}
 

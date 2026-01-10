@@ -429,7 +429,7 @@
 		"pin_to_sibling"				"spy"
 		"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
-	}	
+	}
 
 	"ShowBackpackButton"
 	{
@@ -445,7 +445,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			""
+		"labelText"			"&Z"
 		"textAlignment"		"south-west"
 		"Command"			"backpack"
 		"Default"			"0"
@@ -455,7 +455,25 @@
 		"inactiveimage"		"..\hud\backpack_01_grey"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
+	"ShowBackpackKey"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ShowBackpackKey"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"101"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"replay/thumbnails/hud/key_z_icon"
+
+		"pin_to_sibling"				"ShowBackpackButton"
+		"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
+	}
 	"ShowBackpackLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -491,7 +509,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			""
+		"labelText"			"&X"
 		"textAlignment"		"south-west"
 		"Command"			"crafting"
 		"Default"			"0"
@@ -501,6 +519,24 @@
 		"inactiveimage"		"crafting_anvil_gray"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	"ShowCraftingKey"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ShowCraftingKey"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"101"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"replay/thumbnails/hud/key_x_icon"
+
+		"pin_to_sibling"				"ShowCraftingButton"
+		"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
 	}
 	"ShowCraftingLabel"
 	{
@@ -537,7 +573,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			""
+		"labelText"			"&C"
 		"textAlignment"		"south-west"
 		"Command"			"armory"
 		"Default"			"0"
@@ -547,7 +583,25 @@
 		"inactiveimage"		"catalog_book_gray"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
+	"ShowArmoryKey"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ShowArmoryKey"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"101"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"replay/thumbnails/hud/key_c_icon"
+
+		"pin_to_sibling"				"ShowArmoryButton"
+		"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
+	}
 	"ShowArmoryLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -583,7 +637,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			""
+		"labelText"			"&V"
 		"textAlignment"		"south-west"
 		"Command"			"trading"
 		"Default"			"0"
@@ -593,7 +647,25 @@
 		"inactiveimage"		"trading_parcel_gray"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
+	"ShowTradeKey"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ShowTradeKey"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"101"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"replay/thumbnails/hud/key_v_icon"
+
+		"pin_to_sibling"				"ShowTradeButton"
+		"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
+	}
 	"ShowTradeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -630,7 +702,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			""
+		"labelText"			"&B"
 		"textAlignment"		"south-west"
 		"Command"			"paintkit_preview"
 		"Default"			"0"
@@ -640,7 +712,25 @@
 		"inactiveimage"		"paintkit_tool_bw"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
+	"ShowPaintkitsKey"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ShowPaintkitsKey"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"101"
+		"wide"			"15"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"replay/thumbnails/hud/key_b_icon"
+
+		"pin_to_sibling"				"ShowPaintkitsButton"
+		"pin_corner_to_sibling"			"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"			"PIN_BOTTOMLEFT"
+	}
 	"ShowPaintkitsLabel"
 	{
 		"ControlName"	"CExLabel"
