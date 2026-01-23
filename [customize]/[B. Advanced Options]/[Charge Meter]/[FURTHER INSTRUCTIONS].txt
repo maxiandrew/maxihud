@@ -1,5 +1,0 @@
-In order for these changes to be displayed correctly, you'll need to put either the 
-"chargemeter_current_default.res" or "chargemeter_original.res" file in the "[Customize]" folder.
-
-Do NOT put either the "chargemeter_current_default.res" or "chargemeter_original.res" file
-in your "ui" folder where the "PASTE ME HERE" shortcut takes you!
