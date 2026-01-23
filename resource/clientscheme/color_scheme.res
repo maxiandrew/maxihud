@@ -2,6 +2,59 @@ Scheme
 {
 	Colors
 	{
+		//==================================================================================
+		// M0RE COLOR SCALE PRESETS
+		//==================================================================================
+		"m0reWhite"											"255 255 255 255"
+		"m0reTan"											"235 226 202 255"
+		"m0reGrey"											"150 152 154 255"
+		"m0reBlack"											"0 0 0 255"
+		"m0reMaroon"										"150 50 50 255"
+		"m0reRed"											"255 0 0 255"
+		"m0reSalmon"										"250 125 115 255"
+		"m0reOrange"										"255 155 75 255"
+		"m0reYellow"										"255 190 0 255"
+		"m0reOlive"											"180 200 100 255"
+		"m0reGreen"											"0 215 0 255"
+		"m0reForest"										"0 135 55 255"
+		"m0reTeal"											"100 180 170 255"
+		"m0reCyan"											"0 195 200 255"
+		"m0reBlue"											"0 170 255 255"
+		"m0reNavy"											"90 120 200 255"
+		"m0rePurple"										"150 50 235 255"
+		"m0reViolet"										"190 150 210 255"
+		"m0rePink"											"250 185 240 255"
+		"m0reMagenta"										"255 0 127 255"
+
+		//----------------------------------------------------------------------------------
+		// MENUS
+		//----------------------------------------------------------------------------------
+		"Menu_Accent"										"255 0 127 255"
+		"Class_Selection"									"0 215 0 255"
+		
+		//BACKGROUNDS
+		"Background_Main"									"46 43 42 255"
+		"Background_Dark"									"28 26 25 255"
+		"Background_Darkest"								"18 15 14 255"
+		"Background_Bright"									"66 63 61 255"
+		
+		//BUTTONS
+		"Button_Bright"										"66 63 61 255"
+		"Button_Dark"										"28 26 25 255"
+		"Button_Hover"										"104 101 100 255"
+		"Button_Red"										"190 60 60 255"
+		"Button_Red_Hover"									"120 25 25 255"
+		"Button_Green"										"75 105 35 255"
+		"Button_Green_Hover"								"55 75 25 255"
+		"Black"												"0 0 0 255"
+		"TransparentBlack"									"0 0 0 200"
+		"TransparentMediumBlack"							"0 0 0 150"
+		"TransparentLightBlack"								"0 0 0 100"
+		"TransparentLightestBlack"							"0 0 0 50"
+		"FooterBGBlack"										"35 32 33 255"
+
+
+
 		// custom colors
 		"NegativeNumbers"			"255 147 147 255"
 		"PositiveNumbers"			"51 204 51 255"
@@ -87,6 +140,7 @@ Scheme
 		
 		"TanDark"				"117 107 94 255"
 		"TanLight"				"235 226 202 255"
+		"Last_Damage_Done"									"235 226 202 255"
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"

@@ -175,7 +175,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"24"
+				"tall"		"22" [$WINDOWS]
+				"tall"		"19" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 			}
@@ -185,7 +186,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"18"
+				"tall"		"16" [$WINDOWS]
+				"tall"		"13" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 			}
@@ -235,7 +237,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"14"
+				"tall"		"14"  [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 			}
@@ -245,7 +248,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"14"
+				"tall"		"14"  [$WINDOWS]
+				"tall"		"11" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"dropshadow"	"1"
@@ -256,7 +260,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"11"
+				"tall"		"11"  [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 			}
@@ -266,21 +271,57 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"11"
+				"tall"		"11"  [$WINDOWS]
+				"tall"		"9" [$LINUX]
 				"weight"	"500"
 				"additive"	"0"
 				"dropshadow"	"1"
 			}
 		}
-		"HudFontSmallestBold"
+		"HudFontSmallestBold" // hud customization frame font fixer.
 		{
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"11"
+				"tall"		"10" 
 				"weight"	"500"
 				"additive"	"0"
 			}
+			"2"
+			{
+				"name"		"TF2 Build"
+				"tall"		"10"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2 Build"
+				"tall"		"10"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2 Build"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"TF2 Build"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}			
 		}
 		"PerformanceModeSmall"
 		{
@@ -317,7 +358,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"9"
+				"tall"		"9" [$WINDOWS]
+				"tall"		"8" [$LINUX]
 				"weight"	"0"
 				"additive"	"0"
 			}
@@ -932,7 +974,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"8"
+				"tall"		"8" [$WINDOWS]
+				"tall"		"6" [$LINUX]
 				"weight"	"0"
 				"additive"	"1"
 			}
@@ -1481,8 +1524,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"11"
-				"weight"	"500"
+				"tall"		"10"
+				"weight"	"100"
 				"additive"	"0"
 			}
 		}
@@ -1794,6 +1837,89 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		"Symbols10"
+		{
+			"1"
+			{
+				"name"										"m0rehud_icons_v13"
+				"Tall"										"10"
+				"antialias"									"1"
+			}
+		}
+		"Symbols12"
+		{
+			"1"
+			{
+				"name"										"m0rehud_icons_v13"
+				"Tall"										"12"
+				"antialias"									"1"
+			}
+		}
+		"Symbols14"
+		{
+			"1"
+			{
+				"name"										"m0rehud_icons_v13"
+				"Tall"										"14"
+				"antialias"									"1"
+			}
+		}
+		"Symbols16"
+		{
+			"1"
+			{
+				"name"										"m0rehud_icons_v13"
+				"Tall"										"16"
+				"antialias"									"1"
+			}
+		}
+		"Symbols18"
+		{
+			"1"
+			{
+				"name"										"m0rehud_icons_v13"
+				"Tall"										"18" [$WINDOWS]
+				"Tall"										"14" [$LINUX]
+				"antialias"									"1"
+			}
+		}
+		"Symbols20"
+		{
+			"1"
+			{
+				"name"										"m0rehud_icons_v13"
+				"Tall"										"20"
+				"antialias"									"1"
+			}
+		}
+		"Symbols24"
+		{
+			"1"
+			{
+				"name"										"m0rehud_icons_v13"
+				"Tall"										"24" [$WINDOWS]
+				"Tall"										"20" [$LINUX]
+				"antialias"									"1"
+			}
+		}
+		"Symbols28"
+		{
+			"1"
+			{
+				"name"										"m0rehud_icons_v13"
+				"Tall"										"28"
+				"antialias"									"1"
+			}
+		}
+		"Symbols35"
+		{
+			"1"
+			{
+				"name"										"m0rehud_icons_v13"
+				"Tall"										"35"
+				"antialias"									"1"
+			}
+		}		
 	}
 	
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
@@ -1860,7 +1986,12 @@ Scheme
 			"turkish"
 			{
 			}
-		}			
+		}	
+		"icons"
+		{
+			"Font"		"resource/fonts/m0rehud_icons.ttf"
+			"name"		"m0rehud_icons_v13"
+		}				
 		"7"
 		{
 			"font"	"resource/ocra.ttf"

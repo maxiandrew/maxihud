@@ -1,0 +1,13 @@
+#base "../speedo.vmt"
+
+"UnlitGeneric" {
+	$digit 1000
+	$gt 999
+	"$translucent" 1
+ 	"$alpha" 1
+    	"$vertexalpha" 1
+    	"$vertexcolor" 1
+    	"$no_fullbright" 1
+    	"$ignorez" 1
+	"%keywords" "tf"		
+}

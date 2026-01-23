@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/shield_crit_indicator"
+	"$translucent" 1
+                "$ignorez" 1
+	"$vertexcolor" 1
+}

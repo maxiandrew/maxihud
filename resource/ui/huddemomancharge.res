@@ -1,12 +1,14 @@
 "Resource/UI/HudDemomanCharge.res"
 {	
+    // sticky launcher holding meter
+    // bow bruhh
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"	"0"
+		"ypos"	"0"
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"5"				
@@ -17,5 +19,6 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+					
 	}					
 }

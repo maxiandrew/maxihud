@@ -1,3 +1,5 @@
+#base "../../../../cfg/maxihud/maxi_resolution_scoreboard.txt"
+#base "../../../cfg/maxihud/maxi_resolution_scoreboard.txt"
 "Resource/UI/CharInfoArmorySubPanel.res"
 {
 	"armory_panel"

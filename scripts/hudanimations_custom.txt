@@ -65,6 +65,7 @@ event CompetitiveGame_RestoreChatWindow
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
+	RunEventChild hudplayerclass FullScreen_hurte 0
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"					Linear 0.125 0.075
 	
 	Animate PlayerStatusHealthImage			Alpha		"255" 				Linear 0.0 0.075

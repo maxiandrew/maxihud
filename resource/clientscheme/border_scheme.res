@@ -2,6 +2,27 @@ Scheme
 {
 	Borders
 	{
+		"BorderSelectionBlack"
+		{
+			"Left"		{ "1" { "color" "Black" } "2" { "color" "Black" } }
+			"Right"		{ "1" { "color" "Black" } "2" { "color" "Black" } }
+			"Top"		{ "1" { "color" "Black" } "2" { "color" "Black" } }
+			"Bottom"	{ "1" { "color" "Black" } "2" { "color" "Black" } }
+		}
+		"BorderSelectionWhite"
+		{
+			"Left"		{ "1" { "color" "White" } "2" { "color" "White" } }
+			"Right"		{ "1" { "color" "White" } "2" { "color" "White" } }
+			"Top"		{ "1" { "color" "White" } "2" { "color" "White" } }
+			"Bottom"	{ "1" { "color" "White" } "2" { "color" "White" } }
+		}
+		"BorderSelectionGray"
+		{
+			"Left"		{ "1" { "color" "Gray" } "2" { "color" "Gray" } "3" { "color" "Gray" } }
+			"Right"		{ "1" { "color" "Gray" } "2" { "color" "Gray" } "3" { "color" "Gray" } }
+			"Top"		{ "1" { "color" "Gray" } "2" { "color" "Gray" } "3" { "color" "Gray" } }
+			"Bottom"	{ "1" { "color" "Gray" } "2" { "color" "Gray" } "3" { "color" "Gray" } }
+		}		
 		NoBorder
 		{
 			"inset" "0 0 0 0"

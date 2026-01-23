@@ -8,6 +8,10 @@
 #base "../[customize]/hitmarker_on_default.res"
 #base "../[customize]/hitmarker_off.res"
 
+//FONT
+#base "../[customize]/font_tf2_default.res"
+#base "../[customize]/font_vanilla.res"
+
 //CHARGE METER
 #base "../[customize]/chargemeter_current_default.res"
 #base "../[customize]/chargemeter_original.res"

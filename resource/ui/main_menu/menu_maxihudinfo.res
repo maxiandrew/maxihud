@@ -14,7 +14,9 @@ Scheme
 		"textAlignment"		"center"
 		"autoResize"		"0"
 		"pinCorner"			"0"
+
 		"visible"			"1"
+
 		"enabled"			"1"
 		"fgcolor_override" 	"Black"
 	}
@@ -23,7 +25,7 @@ Scheme
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"MaxiHudVersion"
-		"labelText"			"v17.1P (Preview Build)"
+		"labelText"			"v17.2 (Jofre Update)"
 		"font"				"HudFontSmallestBold"
 		"xpos"				"c-60"
 		"ypos"				"456"

@@ -166,7 +166,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"&R  Close"
+		"labelText"		"&C  Close"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -187,7 +187,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"	
-			"image"			"replay/thumbnails/hud/key_r_icon"
+			"image"			"replay/thumbnails/hud/key_c_icon"
 		}
 	}
 
@@ -202,7 +202,7 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		
 		"Key1Icon"
@@ -213,7 +213,7 @@
 			"ypos"			"5"
 			"wide"			"15"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"image"			"replay/thumbnails/hud/key_1_icon"
@@ -230,7 +230,7 @@
 			"wide"				"15"
 			"tall"				"15"
 			"textAlignment"		"center"
-			"visible"			"1"
+			"visible"			"0"
 			"enabled"			"1"
 			"fgcolor_override" 	"TanLight"
 		}
@@ -243,7 +243,7 @@
 			"ypos"			"5"
 			"wide"			"15"
 			"tall"			"15"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"image"			"replay/thumbnails/hud/key_9_icon"
@@ -260,7 +260,7 @@
 			"wide"				"140"
 			"tall"				"15"
 			"textAlignment"		"west"
-			"visible"			"1"
+			"visible"			"0"
 			"enabled"			"1"
 			"fgcolor_override" 	"TanLight"
 		}

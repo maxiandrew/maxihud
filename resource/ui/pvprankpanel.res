@@ -1,4 +1,4 @@
-"Resource/UI/PvPRankPanel.res"
+"resource/ui/pvprankpanel.res"
 {
 	"ModelContainer"
 	{
@@ -34,7 +34,7 @@
 				"0"
 				{
 					"particle_xpos" "c0"
-					"particle_ypos" "c0"
+					"particle_ypos" "c1"
 					"particle_scale" "3"
 					"particleName"	"rankup_base"
 					"start_activated" "0"
@@ -50,7 +50,7 @@
 			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
 			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
+			"ypos"			"cs-0.47"
 			"zpos"			"0"		
 			"wide"			"o1"
 			"tall"			"p0.12"
@@ -185,7 +185,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"rs1"
+		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"260"
@@ -206,16 +206,16 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
-			"ypos"			"5"
-			"wide"			"195"
+			"xpos"			"62"
+			"ypos"			"6"
+			"wide"			"173"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmall"
+			"font"			"MatchSummaryStatsAndMedals"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north"
+			"textAlignment"	"center"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
@@ -224,21 +224,20 @@
 				"visible"	"0"
 			}
 		}
-
 		"DescLine1"
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
 			"xpos"			"65"
-			"ypos"			"19"
-			"wide"			"195"
+			"ypos"			"20"
+			"wide"			"173"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallest"
+			"font"			"GoalText"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north"
+			"textAlignment"	"center"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
@@ -254,22 +253,27 @@
 				"1"		"StorePromotionsTitle"
 				"2"		"FontStorePrice"
 			}
-		}
 
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"TanLight"
+			}
+		}
 		"DescLine2"
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
 			"xpos"			"65"
 			"ypos"			"29"
-			"wide"			"195"
+			"wide"			"173"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallest"
+			"font"			"GoalText"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north"
+			"textAlignment"	"center"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
@@ -297,28 +301,33 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-5"
+			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"f70"
-			"tall"			"f0"
+			"wide"			"f10"
+			"tall"			"100"
 			"proportionaltoparent"	"1"
 
-			if_mini
+			"if_mini" // note: if_mini used for results screen, not dashboard criteria
 			{
-				"xpos"			"rs1-10"
-				"ypos"			"0"
-				"wide"			"p0.85"
+				"tall"			"f0"
 			}
 
 			"XPBar"
 			{
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-3"
-				"wide"			"p1"
+				"xpos"			"rs1"
+				"ypos"			"rs1-40"
+				"wide"			"f60"
 				"tall"			"30"
 				"proportionaltoparent"	"1"
+				
+				"if_mini"
+				{
+					"xpos"		"cs-0.5"
+					"ypos"		"rs1-3"
+					"wide"		"p1"
+				}
 
 	
 
@@ -417,13 +426,13 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
-				"xpos"			"0"
-				"ypos"			"5"
-				"wide"			"f0"
-				"tall"			"p0.45"
-				"visible"		"0"
+				"xpos"			"4"
+				"ypos"			"65"
+				"wide"			"246"
+				"tall"			"p0.35"
+				"visible"		"1"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"	"0 0 0 150"
+				"bgcolor_override"	"0 0 0 100"
 
 				"if_mini"
 				{
@@ -440,7 +449,7 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"proportionaltoparent"	"1"
-					"border"		"InnerShadowBorder"
+					"border"		"InnerShadowBorderThin"
 				}
 
 
@@ -450,8 +459,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"GamesLabel"
-					"xpos"			"10"
-					"ypos"			"0"
+					"xpos"		"8"
+					"ypos"		"2"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -468,8 +477,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"KillsLabel"
-					"xpos"			"10"
-					"ypos"			"10"
+					"xpos"		"8"
+					"ypos"		"12"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -486,8 +495,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"DeathsLabel"
-					"xpos"			"10"
-					"ypos"			"20"
+					"xpos"		"8"
+					"ypos"		"22"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -505,8 +514,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"DamageLabel"
-					"xpos"			"c-20"
-					"ypos"			"0"
+					"xpos"		"c-28"
+					"ypos"		"2"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -523,8 +532,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"HealingLabel"
-					"xpos"			"c-20"
-					"ypos"			"10"
+					"xpos"		"c-28"
+					"ypos"		"12"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -541,8 +550,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"SupportLabel"
-					"xpos"			"c-20"
-					"ypos"			"20"
+					"xpos"		"c-28"
+					"ypos"		"22"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -560,8 +569,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"ScoreLabel"
-					"xpos"			"rs1"
-					"ypos"			"0"
+					"xpos"		"rs1+40"
+					"ypos"		"2"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"

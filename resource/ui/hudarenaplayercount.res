@@ -8,7 +8,7 @@
 		"xpos"			"c-65"
 		"ypos"			"0"	
 		"wide"			"130"
-		"tall"			"33"
+		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
