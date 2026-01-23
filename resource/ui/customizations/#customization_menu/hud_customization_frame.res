@@ -32,7 +32,7 @@
 			"ProportionalToParent"						"1"
 			"Use_Proportional_Insets"					"1"
 			"AllCaps"									"1"
-			"LabelText"									"HUD Customization"
+			"LabelText"									"MaxiHud Settings"
 			"Font"										"HudFontSmallBold"
 			"TextAlignment"								"west"
 			"TextInsetX"								"5"

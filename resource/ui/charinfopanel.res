@@ -166,7 +166,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"&C  Close"
+		"labelText"		"&R  Close"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -187,82 +187,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"	
-			"image"			"replay/thumbnails/hud/key_c_icon"
-		}
-	}
-
-	"ClassKeys"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ClassKeys"
-		"xpos"			"c-90"
-		"ypos"			"437"
-		"zpos"			"2"
-		"wide"			"183"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		
-		"Key1Icon"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"Key1Icon"
-			"xpos"			"0"
-			"ypos"			"5"
-			"wide"			"15"
-			"tall"			"15"
-			"visible"		"0"
-			"enabled"		"1"
-			"scaleImage"	"1"	
-			"image"			"replay/thumbnails/hud/key_1_icon"
-		}
-		
-		"HyphenLabal"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"HyphenLabal"
-			"labelText"			"-"
-			"font"				"HudFontSmallBold"
-			"xpos"				"12"
-			"ypos"				"5"
-			"wide"				"15"
-			"tall"				"15"
-			"textAlignment"		"center"
-			"visible"			"0"
-			"enabled"			"1"
-			"fgcolor_override" 	"TanLight"
-		}
-		
-		"Key9Icon"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"Key1Icon"
-			"xpos"			"24"
-			"ypos"			"5"
-			"wide"			"15"
-			"tall"			"15"
-			"visible"		"0"
-			"enabled"		"1"
-			"scaleImage"	"1"	
-			"image"			"replay/thumbnails/hud/key_9_icon"
-		}
-		
-		"ChangeClassLabal"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"ChangeClassLabal"
-			"labelText"			"Edit Class Loadout"
-			"font"				"HudFontSmallBold"
-			"xpos"				"45"
-			"ypos"				"5"
-			"wide"				"140"
-			"tall"				"15"
-			"textAlignment"		"west"
-			"visible"			"0"
-			"enabled"			"1"
-			"fgcolor_override" 	"TanLight"
+			"image"			"replay/thumbnails/hud/key_r_icon"
 		}
 	}
 

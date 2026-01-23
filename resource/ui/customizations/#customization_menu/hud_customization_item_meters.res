@@ -209,7 +209,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"FontStorePrice"
-							"LabelText"					"Disabled"
+							"LabelText"					"Hide"
 							"TextAlignment"				"center"
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"

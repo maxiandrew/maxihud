@@ -4544,34 +4544,6 @@
 					}
 				}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 				"Title_Icon2"
 				{
 					"ControlName"						"CExLabel"
@@ -4743,7 +4715,7 @@
 							"ProportionalToParent"		"1"
 							"mouseinputenabled"			"0"
 							"AllCaps"					"1"
-							"LabelText"					"TF2 Bold"
+							"LabelText"					"TF2"
 							"Font"						"HudFontSmall"
 							"TextAlignment"				"west"
 							"FGColor"					"White"
@@ -4841,7 +4813,7 @@
 							"ProportionalToParent"		"1"
 							"mouseinputenabled"			"0"
 							"AllCaps"					"1"
-							"LabelText"					"Verdana"
+							"LabelText"					"Vanilla"
 							"Font"						"HudFontSmall"
 							"TextAlignment"				"west"
 							"FGColor"					"White"

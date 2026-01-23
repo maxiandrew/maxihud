@@ -749,7 +749,7 @@
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
 						"AllCaps"						"1"
-						"LabelText"						"Floating Damage Transparency"
+						"LabelText"						"Floating Damage Alpha"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
 						"FGColor"						"Gray"

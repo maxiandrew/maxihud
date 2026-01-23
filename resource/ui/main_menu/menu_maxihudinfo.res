@@ -25,7 +25,7 @@ Scheme
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"MaxiHudVersion"
-		"labelText"			"v17.2 (Jofre Update)"
+		"labelText"			"v17.0 (WIP)"
 		"font"				"HudFontSmallestBold"
 		"xpos"				"c-60"
 		"ypos"				"456"

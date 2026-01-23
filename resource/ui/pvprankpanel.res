@@ -206,16 +206,16 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"62"
+			"xpos"			"55"
 			"ypos"			"6"
-			"wide"			"173"
+			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"MatchSummaryStatsAndMedals"
+			"font"			"HudFontSmall"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"	"center"
+			"textAlignment"	"north"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
@@ -224,20 +224,21 @@
 				"visible"	"0"
 			}
 		}
+
 		"DescLine1"
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"65"
+			"xpos"			"55"
 			"ypos"			"20"
-			"wide"			"173"
+			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"GoalText"
+			"font"			"HudFontSmallest"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"	"center"
+			"textAlignment"	"north"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
@@ -253,27 +254,22 @@
 				"1"		"StorePromotionsTitle"
 				"2"		"FontStorePrice"
 			}
-
-			"colors"
-			{
-				"1"		"CreditsGreen"
-				"2"		"TanLight"
-			}
 		}
+
 		"DescLine2"
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"65"
-			"ypos"			"29"
-			"wide"			"173"
+			"xpos"			"55"
+			"ypos"			"30"
+			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"GoalText"
+			"font"			"HudFontSmallest"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"	"center"
+			"textAlignment"	"north"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
