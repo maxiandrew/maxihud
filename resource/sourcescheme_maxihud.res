@@ -646,7 +646,7 @@ Scheme
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
-			"4"
+			"4" // 1920x1080
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"19"

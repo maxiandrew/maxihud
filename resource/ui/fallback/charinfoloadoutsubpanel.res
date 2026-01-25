@@ -1512,7 +1512,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectLabelV2"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"testHudFontMediumSmallBold"
 		"labelText"		"#SelectClassLoadout"
 		"textAlignment"	"center"
 		"xpos"			"0"

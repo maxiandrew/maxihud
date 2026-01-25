@@ -192,6 +192,52 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		"testHudFontMediumSmallBold"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2" //800 x600
+			{
+				"name"		"TF2 Build"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3" // 1280 x 960
+			{
+				"name"		"TF2 Build"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"  // 1920x1080
+			{
+				"name"		"TF2 Build"
+				"tall"		"29"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // 4k
+			{
+				"name"		"TF2 Build"
+				"tall"		"29"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+		}		
 		"HudFontMediumSmall"
 		{
 			"1"

@@ -216,7 +216,7 @@
 		"zpos"				"0"
 		"wide"				"480"
 		"tall"				"28"
-		"visible"			"1"
+		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
@@ -349,7 +349,7 @@
 			if_match
 			{
 				"proportionaltoparent"	"1"
-
+				"textAlignment"		"center"
 				"xpos"			"cs-0.5"
 				"ypos"			"12"
 				"ypos_minmode"	"12"
