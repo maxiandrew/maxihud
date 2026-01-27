@@ -4582,8 +4582,8 @@
 				{
 					"ControlName"						"CExLabel"
 					"FieldName"							"Restart_Warning2"
-					"XPos"								"-140"
-					"YPos"								"0"
+					"XPos"								"155"
+					"YPos"								"130"
 					"ZPos"								"0"
 					"Wide"								"25"
 					"Tall"								"25"
@@ -4596,9 +4596,6 @@
 					"TextAlignment"						"center"
 					"FGColor"							"Red"
 
-					"Pin_To_Sibling"					"Title2"
-					"Pin_Corner_To_Sibling"				"PIN_CENTER_LEFT"
-					"Pin_To_Sibling_Corner"				"PIN_CENTER_LEFT"
 				}
 				"Separator_1a"
 				{
