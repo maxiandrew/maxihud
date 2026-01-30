@@ -381,8 +381,8 @@ DESCRIPTION INFO_OPTIONS
 	
 	"fov_desired"
 	{
-		"Player Field-of-View"
-		"Adjust your field-of-view to see how much you want to see around you in first person view."
+		"#PlayerViewModelFOV"
+		"#ToolTip_PlayerViewModelFOV"
 		{ SLIDER 75 90 }
 		{ "1" }
 	}	

@@ -5,28 +5,28 @@
 	{
 		"label"			""
 		"command"		"engine tfsongprev"
-		"tooltip"		"Previous Music"
+		"tooltip"		"#Tooltip_MusicChangePrev"
 		"OnlyAtMenu"	"1"
 	}
 	"MusicStopButton"
 	{
 		"label"			""
 		"command"		"engine tfnomusic"
-		"tooltip"		"Stop Music"
+		"tooltip"		"#Tooltip_MusicStop"
 		"OnlyAtMenu"	"1"
 	}
 	"MusicPlayButton"
 	{
 		"label"			""
 		"command"		"engine tfnomusic; tfsongcurrent"
-		"tooltip"		"Play Music"
+		"tooltip"		"#Tooltip_MusicPlay"
 		"OnlyAtMenu"	"1"
 	}
 	"MusicChangeNextButton"
 	{
 		"label"			""
 		"command"		"engine tfsongnext"
-		"tooltip"		"Next Music"
+		"tooltip"		"#Tooltip_MusicChangeNext"
 		"OnlyAtMenu"	"1"
 	}	
 	
@@ -35,7 +35,7 @@
 		"label"			""
 		"command"		"engine hud_reloadscheme; toggle mat_aaquality; snd_restart"
 		"subimage" 		""
-		"tooltip" 		"Reload Scheme"
+		"tooltip" 		"#Tooltip_ReloadScheme"
 	}
 	
 	"ConsoleButton"
@@ -43,7 +43,7 @@
 		"label"			""
 		"command"		"engine toggleconsole"
 		"subimage" 		""
-		"tooltip" 		"Toggle Developer Console"
+		"tooltip" 		"#Tooltip_Console"
 	}
 	
 	"MaxiHudSettingsButton"
@@ -51,7 +51,7 @@
 		"label"			""
 		"command"		"engine toggle cl_mainmenu_safemode; mat_queue_mode 0"
 		"subimage" 		""
-		"tooltip" 		"MaxiHud Settings"
+		"tooltip" 		"#MaxiHudSettings"
 	}
 
 	// VR Mode button

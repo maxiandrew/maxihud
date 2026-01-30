@@ -379,7 +379,7 @@
 			"fieldName"		"PotatoExplanation"
 			"font"			"HudFontSmall"
 			"fgcolor_override"	"TanLight"
-			"labelText"		"Play on Potato MvM servers! You can earn badges in special events!"
+			"labelText"		"#PotatoDescriptionLabel"
 			"textAlignment"	"north-west"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1"

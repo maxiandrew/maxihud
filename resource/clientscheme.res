@@ -19,7 +19,6 @@
 #base "clientscheme/color_scheme.res"
 #base "clientscheme/font_scheme.res"
 #base "crosshairs/crosshairs_scheme.res"
-#base "../resource/customize_scheme.res"
 #base "../resource/crosshairs/crosshair_scheme.res"
 #base "crosshairs/showcase_more.res"
 

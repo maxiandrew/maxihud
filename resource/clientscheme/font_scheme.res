@@ -12,49 +12,239 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"13"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"TF2 Secondary"
 				"tall"		"9"
 				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
 			}
 		}
+		
 		"DefaultUnderline"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"TF2 Secondary"
 				"tall"		"12"
 				"weight"	"500"
 				"underline" "1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"11"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
 			}
 		}
+		
 		"DefaultSmall"
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"TF2 Secondary"
 				"tall"		"9"
 				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
 			}
 		}
-
 
 		"DefaultVerySmall"
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"6"
+				"tall"		"12"
 				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"9"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
 			}
 		}
+		
 		DefaultLarge
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"12"
+				"tall"		"18"
 				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"21"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"28"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1024 1199"
+				"antialias"	"1"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"18"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
 			}
 		}
+
 		CenterPrintText
 		{
 			// note that this scales with the screen resolution
@@ -63,9 +253,19 @@ Scheme
 				"name"		"TF2 Secondary"
 				"tall"		"18"
 				"weight"	"900"
+				"antialias" "1"
 				"additive"	"1"
-				"dropshadow"	"1"
-				"outline" "1"
+			}
+		}		CenterPrintText
+		{
+			// note that this scales with the screen resolution
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"18"
+				"weight"	"900"
+				"antialias" "1"
+				"additive"	"1"
 			}
 		}
 
@@ -79,25 +279,96 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		
 		HudHintText
 		{
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"9"
+				"tall"		"12"
 				"weight"	"700"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"13"
+				"weight"	"700"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"700"
+				"yres"	"768 1023"
+			}
+			"4"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"700"
+				"yres"	"1024 1199"
+			}
+			"5" // Misyl: Proportional
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"weight"	"700"
+				"antialias"	"1"
 			}
 		}
+		
 		"HudFontGiant"
 		{
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"21"
+				"tall"		"24"
+				"tall_lodef"	"80"
 				"weight"	"500"
 				"additive"	"0"
+				"antialias" "1"
+				"yres"		"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2"
+				"tall"		"32"
+				"tall_hidef"	"120"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2"
+				"tall"		"44"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"768 1023"
+			}
+			"4"
+			{
+				"name"		"TF2"
+				"tall"		"48"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"1024 1199"
+			}
+			"5"
+			{
+				"name"		"TF2"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
+
 		"HudFontGiantBold"
 		{
 			"1"
@@ -106,6 +377,7 @@ Scheme
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -117,6 +389,7 @@ Scheme
 				"tall"		"35"
 				"weight"	"500"
 				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -126,8 +399,10 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"36"
+				"tall_hidef"	"48"
 				"weight"	"500"
 				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontMediumBig"
@@ -138,6 +413,7 @@ Scheme
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
+				"antialias" "1"
 			}
 		}	
 		"HudFontMediumBigBold"
@@ -148,8 +424,34 @@ Scheme
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
+				"antialias" "1"
 			}
-		}		
+		}
+
+		"HudFontMediumBig"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"				
+			}
+		}
+
+		"HudFontMediumBigBold"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
 		"HudFontMedium"
 		{
 			"1"
@@ -158,40 +460,55 @@ Scheme
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
+				"antialias" "1"
 			}
 		}
+
 		"HudFontMediumSecondary"
-        {
-            "1"
-            {
-                "name"        "TF2 Secondary"
-                "tall"        "11"
-                "weight"    "500"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"24"
+				"weight"	"500"
+				"yres"		"1 1199"
 				"additive"	"0"
-            }
-        }
+				"antialias" "1"
+			}
+			"2" // Misyl: Proportional
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		"HudFontMediumBold"
 		{
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"22" [$WINDOWS]
-				"tall"		"19" [$LINUX]
+				"tall"		"22"
 				"weight"	"500"
 				"additive"	"0"
+				"antialias" "1"
 			}
 		}
+
 		"HudFontMediumSmallBold"
 		{
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"16" [$WINDOWS]
-				"tall"		"13" [$LINUX]
+				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
+				"antialias" "1"
 			}
 		}
+
 		"testHudFontMediumSmallBold"
 		{
 			"1"
@@ -237,7 +554,8 @@ Scheme
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
-		}		
+		}
+		
 		"HudFontMediumSmall"
 		{
 			"1"
@@ -555,8 +873,49 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"9"
+				"tall"		"15"
+				"weight"	"700"
+				"antialias" 	"1"
+				"yres"		"1 599"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"additive"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2"
+				"tall"		"15"
+				"weight"	"700"
+				"antialias" 	"1"
+				"yres"		"600 767"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"additive"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2"
+				"tall"		"18"
 				"weight"	"900"
+				"antialias" 	"1"
+				"yres"		"768 1023"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+			}
+			"4"
+			{
+				"name"		"TF2"
+				"tall"		"21"
+				"weight"	"900"
+				"antialias" 	"1"
+				"yres"		"1024 1199"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+			}
+			"5"
+			{
+				"name"		"TF2"
+				"tall"		"24"
+				"weight"	"1000"
+				"antialias" 	"1"
+				"yres"		"1200 10000"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		DebugOverlay
@@ -567,6 +926,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"400"
 				"outline"	"1"
+				"range"		"0x0000 0x017F"
 			}
 		}		
 		TFTypeDeath
@@ -949,8 +1309,41 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"9"
+				"tall"		"12"
 				"weight"	"700"
+				"yres"		"480 599"
+				"dropshadow"	"0"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"13"
+				"weight"	"700"
+				"yres"		"600 767"
+				"dropshadow"	"0"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"700"
+				"yres"		"768 1023"
+				"dropshadow"	"0"
+			}
+			"4"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"700"
+				"yres"		"1024 1199"
+				"dropshadow"	"0"
+			}
+			"5"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"24"
+				"weight"	"700"
+				"yres"		"1200 10000"
 				"dropshadow"	"0"
 			}
 		}
@@ -959,8 +1352,41 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"9"
+				"tall"		"12"
 				"weight"	"700"
+				"yres"		"480 599"
+				"dropshadow"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"13"
+				"weight"	"700"
+				"yres"		"600 767"
+				"dropshadow"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"700"
+				"yres"		"768 1023"
+				"dropshadow"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"700"
+				"yres"		"1024 1199"
+				"dropshadow"	"1"
+			}
+			"5"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"24"
+				"weight"	"700"
+				"yres"		"1200 10000"
 				"dropshadow"	"1"
 			}
 		}
@@ -969,8 +1395,41 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"6"
+				"tall"		"10"
 				"weight"	"700"
+				"yres"		"480 599"
+				"dropshadow"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"700"
+				"yres"		"600 767"
+				"dropshadow"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"13"
+				"weight"	"700"
+				"yres"		"768 1023"
+				"dropshadow"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"700"
+				"yres"		"1024 1199"
+				"dropshadow"	"1"
+			}
+			"5"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"15"
+				"weight"	"700"
+				"yres"		"1200 10000"
 				"dropshadow"	"1"
 			}
 		}
@@ -1214,8 +1673,29 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"5"
+				"tall"		"10"
 				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"480 599"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"600 1199"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"15"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1200 6000"
+				"antialias"	"1"
 			}
 		}
 		
@@ -1385,10 +1865,32 @@ Scheme
 			"1"
 			{
 				"name"		"OCR A Extended" [$WINDOWS]
-				"name"		"ocra"	
-				"tall"		"8"
+				"name"		"ocra"
+				"tall"		"10"
+				"weight"	"400"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
+				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"	
+				"tall"		"18"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
 			}
 		}
 
@@ -1398,9 +1900,31 @@ Scheme
 			{
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
-				"tall"		"8"
+				"tall"		"10"
+				"weight"	"800"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
+				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
+				"tall"		"18"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
 			}
 		}
 		
@@ -1433,7 +1957,27 @@ Scheme
 				"name"		"TF2 Secondary"
 				"tall"		"10"
 				"weight"	"400"
+				"yres"		"480 599"
 				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
 			}
 		}
 
@@ -1442,9 +1986,31 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"2102"
+				"tall"		"10"
+				"weight"	"400"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+				"italic"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
 				"italic"	"1"
 			}
 		}
@@ -1454,9 +2020,29 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"8"
+				"tall"		"10"
+				"weight"	"800"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"18"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
 			}
 		}
 
@@ -1542,8 +2128,45 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"6"
+				"tall"		"12"
 				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
 			}
 		}
 		"ReplayBrowserSmallest"
@@ -1561,8 +2184,52 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Secondary"
-				"tall"		"9"
+				"tall"		"12"
 				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"22"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
 			}
 		}
 		"ReplayMediumSmall"
@@ -1680,7 +2347,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
-				"dropshadow"	"1"				
+				"dropshadow"	"1"
 			}
 		}
 		
@@ -1692,7 +2359,7 @@ Scheme
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
-				"dropshadow"	"1"				
+				"dropshadow"	"1"
 			}
 		}
 		
@@ -1988,101 +2655,417 @@ Scheme
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-			"font" "resource/tf2.ttf"
-			"name" "TF2"
+		"font" "resource/fonts/tf2.ttf"
+		"name" "TF2"
+		
 			"russian"
 			{
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
 			}
 			"polish"
 			{
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
 			}
 		}
 		"4" 
 		{
-			"font" "resource/tf2secondary.ttf"
-			"name" "TF2 Secondary"
+		"font" "resource/fonts/tf2secondary.ttf"
+		"name" "TF2 Secondary"
+		
 			"russian"
 			{
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
 			}
 			"polish"
 			{
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
 			}
 		}
 		"5" 
 		{
-			"font" "resource/tf2professor.ttf"
-			"name" "TF2 Professor"
+		"font" "resource/fonts/tf2professor.ttf"
+		"name" "TF2 Professor"
+
 			"russian"
 			{
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
 			}
 			"polish"
 			{
+				"range" "0x0020 0x2116"
 			}
-		}	
-		"6" 
-		{
-			"font" "resource/tf2build.ttf"
-			"name" "TF2 Build"
-			"russian"
+			"portuguese"
 			{
+				"range" "0x0020 0x2116"
 			}
-			"polish"
+			"romanian"
 			{
-			}
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
 			"turkish"
 			{
+				"range" "0x0020 0x2116"
 			}
-		}	
+		}
+		"6" 
+		{
+		"font" "resource/fonts/tf2build.ttf"
+		"name" "TF2 Build"
+		
+			"russian"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"bulgarian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"czech"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"polish"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
+			}
+		}
 		"icons"
 		{
 			"Font"		"resource/fonts/m0rehud_icons.ttf"
 			"name"		"m0rehud_icons_v13"
-		}				
-		"7"
+		}		
+		"7" 
 		{
-			"font"	"resource/ocra.ttf"
-			"name" "ocra"
-			"turkish"
+		"font"	"resource/fonts/ocra.ttf"
+		"name" "ocra"	
+
+			"russian"
 			{
-			}
-			"swedish"
+				"range" "0x0020 0x2116"
+			}	
+			"ukrainian"
 			{
-			}
-			"spanish"
-			{
-			}
-			"romanian"
-			{
-			}
-			"polish"
-			{
-			}
-			"norwegian"
-			{
-			}
-			"danish"
-			{
-			}
-			"hungarian"
-			{
-			}
-			"german"
-			{
-			}
-			"french"
-			{
-			}
-			"finnish"
-			{
-			}
-			"czech"
-			{
+				"range" "0x0020 0x2116"
 			}
 			"bulgarian"
 			{
+				"range" "0x0020 0x2116"
 			}
-			"russian"
+			"czech"
 			{
+				"range" "0x0020 0x2116"
+			}	
+			"danish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"dutch"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"english"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"finnish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"french"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"german"
+			{
+				"range" "0x0020 0x2116"
+			}	
+			"hungarian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"italian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"norwegian"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"polish"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"portuguese"
+			{
+				"range" "0x0020 0x2116"
+			}
+			"romanian"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"spanish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"swedish"
+			{
+				"range" "0x0020 0x2116"
+			}		
+			"turkish"
+			{
+				"range" "0x0020 0x2116"
 			}
 		}
 	}

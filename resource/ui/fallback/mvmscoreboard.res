@@ -222,7 +222,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"DefeatsLabel"
 		"font"				"HudFontSmallest"
-		"labelText"			"Defeats"
+		"labelText"			"#DefeatsLabel"
 		"textAlignment"		"center"
 		"xpos"				"30"
 		"ypos"				"24"

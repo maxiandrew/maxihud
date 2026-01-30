@@ -202,7 +202,7 @@
 		"visible"		"1"	[$WIN32]
 		"visible"		"0"	[$X360]
 		"enabled"		"1"
-		"labelText"		"Spectate Next Target"
+		"labelText"		"#CycleTargetFwdLabel"
 		"textAlignment"		"west"
 		"font"			"HudFontSmallestShadow"
 	}
@@ -250,7 +250,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
 		"enabled"		"1"
-		"labelText"		"Spectate Previous Target"
+		"labelText"		"#CycleTargetRevLabel"
 		"textAlignment"		"west"
 		"font"			"HudFontSmallestShadow"
 	}
@@ -281,7 +281,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
 		"enabled"		"1"
-		"labelText"		"Switch Camera Mode"
+		"labelText"		"#SwitchCamModeLabelPerma"
 		"textAlignment"		"west"
 		"font"			"HudFontSmallestShadow"
 	}
