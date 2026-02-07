@@ -6,7 +6,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+			"name"		"TF2 Build"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -28,7 +28,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"TF2 Build"
 				"tall"		"35"
 				"weight"	"500"
 				"additive"	"0"
@@ -40,7 +40,7 @@
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"TF2"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -100,5 +100,118 @@
 				"name"										"Verdana"
 			}
 		}
+		"ItemFontNameSmallest"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"8"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontNameSmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"9"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontNameLarge"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontNameLarger"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontAttribSmallest"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"7"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		ItemFontAttribSmallv2
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"antialias" "1"
+				"weight"	"500"
+			}
+		}
+		"ItemFontAttribSmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"8"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"ItemFontAttribLarge"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"ItemFontAttribLarger"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		HudFontSmallBold	
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"wide" "0"
+			}
+		}	
+		centerprinttext	
+		{
+			"1"
+			{
+			//	"name"										"Verdana"
+			}
+		}					
 	}
 }

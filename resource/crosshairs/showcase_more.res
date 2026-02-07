@@ -24,7 +24,7 @@
 		{
 			"1"
 			{
-				"name"										"verdana"
+				"name"										"tf2 secondary"//"verdana"
 				"Tall"										"22"
 				"antialias"									"1"
 			}

@@ -5,4 +5,4 @@
 #base "../../../../cfg/maxihud/maxi_disguise_pos.txt"
 
 // BASE CONTENT
-#base "falback/disguisestatuspanel.res"
+#base "fallback/disguisestatuspanel.res"
