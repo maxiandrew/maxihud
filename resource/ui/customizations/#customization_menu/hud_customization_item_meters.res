@@ -72,7 +72,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"AllCaps"							"1"
-					"LabelText"							"#HudCustomization_Killstreak"
+					"LabelText"							"#HudCustomization_Frame_Killstreak"
 					"Font"								"HudFontMediumbold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"

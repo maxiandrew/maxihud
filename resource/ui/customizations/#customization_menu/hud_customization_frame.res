@@ -66,9 +66,9 @@
 			"ArmedFGColor_Override"						"White"
 			"DepressedFGColor_Override"					"White"
 
-			"DefaultBGColor_Override"					"Button_Red"
-			"ArmedBGColor_Override"						"Button_Red_Hover"
-			"DepressedBGColor_Override"					"Button_Red_Hover"
+			"DefaultBGColor_Override"					"TanDark"
+			"ArmedBGColor_Override"						"146 71 56 255"
+			"DepressedBGColor_Override"					"146 71 56 255"
 		}
 		"GitHubWiki"
 		{
@@ -154,35 +154,7 @@
 			"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
 			"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
 		}
-		"TroubleshootingButton"
-		{
-			"ControlName"								"CExButton"
-			"FieldName"									"TroubleshootingButton"
-			"XPos"										"2"
-			"YPos"										"0"
-			"ZPos"										"20"
-			"Wide"										"76"
-			"Tall"										"18"
-			"Visible"									"0"
-			"Enabled"									"0"
-			"ProportionalToParent"						"1"
-			"AllCaps"									"1"
-			"LabelText"									"Troubleshooting"
-			"Font"										"FontStorePrice"
-			"TextAlignment"								"center"
-			"Command"									"url https://github.com/Hypnootize/m0rehud/wiki/TROUBLESHOOTING"
-			"ActionSignalLevel"							"2"
-			"Sound_Depressed"							"UI/buttonclick.wav"
 
-			"PaintBackground"							"1"
-			"DefaultBGColor_Override"					"Background_Main"
-			"ArmedBGColor_Override"						"Button_Hover"
-			"DepressedBGColor_Override"					"Button_Hover"
-
-			"Pin_To_Sibling"							"ReloadGameButton"
-			"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
-			"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
-		}
 //==============================================================================================================================
 // MAIN SCROLLER LIST
 //==============================================================================================================================
@@ -401,7 +373,7 @@
 				"Enabled"								"1"
 				"ProportionalToParent"					"1"
 				"AllCaps"								"1"
-				"LabelText"								"#HudCustomization_Frame_KillstreakMeters"
+				"LabelText"								"#HudCustomization_Frame_Killstreak"
 				"Font"									"HudFontSmallestBold"
 				"TextAlignment"							"center"
 				"Command"								"engine m0_custom_meters; hud_reloadscheme"

@@ -2092,7 +2092,7 @@
 					}		
 						
 				}		
-			"vgui1"
+				"vgui1"
 				{
 					"ControlName"						"EditablePanel"
 					"FieldName"							"vgui1"
@@ -2122,6 +2122,24 @@
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
 						"FGColor"						"Gray"
+					}
+					"Restart_Warning"
+					{
+						"ControlName"					"CExLabel"
+						"FieldName"						"Restart_Warning"
+						"XPos"							"285"
+						"YPos"							"-1"
+						"ZPos"							"0"
+						"Wide"							"20"
+						"Tall"							"15"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ProportionalToParent"			"1"
+						"AllCaps"						"1"
+						"LabelText"						"C"
+						"Font"							"Symbols14"
+						"TextAlignment"					"center"
+						"FGColor"						"Red"
 					}
 					"Separator"
 					{

@@ -24,7 +24,7 @@
 				{
 					"XPos"								"rs1+1"
 					"YPos"								"0"
-					"Wide"								"6"
+					"Wide"								"0"
 					"Tall"								"f0"
 					"ZPos"								"1000"
 					"ProportionalToParent"				"1"
@@ -903,7 +903,7 @@
 					{
 						"ControlName"					"CExLabel"
 						"FieldName"						"Streamer_Mode"
-						"XPos"							"5"
+						"XPos"							"1"
 						"YPos"							"136"
 						"ZPos"							"0"
 						"Wide"							"f25"
@@ -921,7 +921,7 @@
 					{
 						"ControlName"					"EditablePanel"
 						"FieldName"						"Separator_4"
-						"XPos"							"3"
+						"XPos"							"-1"
 						"YPos"							"151"
 						"ZPos"							"0"
 						"Wide"							"f40"
@@ -937,7 +937,7 @@
 					{
 						"ControlName"					"CExLabel"
 						"FieldName"						"Streamer_Mode_Explanation"
-						"XPos"							"5"
+						"XPos"							"1"
 						"YPos"							"153"
 						"ZPos"							"1"
 						"Wide"							"f10"
@@ -957,7 +957,7 @@
 					{
 						"ControlName"					"CExButton"
 						"FieldName"						"Streamer_Mode_ON"
-						"XPos"							"5"
+						"XPos"							"1"
 						"YPos"							"173"
 						"ZPos"							"5"
 						"Wide"							"65"
@@ -985,7 +985,7 @@
 					{
 						"ControlName"					"CExButton"
 						"FieldName"						"Streamer_Mode_OFF"
-						"XPos"							"5+70"
+						"XPos"							"71"
 						"YPos"							"173"
 						"ZPos"							"5"
 						"Wide"							"65"
@@ -1013,7 +1013,7 @@
 					{
 						"ControlName"					"CExLabel"
 						"FieldName"						"Streamer_Mode_Warning"
-						"XPos"							"5"
+						"XPos"							"1"
 						"YPos"							"190"
 						"ZPos"							"1"
 						"Wide"							"f30"
