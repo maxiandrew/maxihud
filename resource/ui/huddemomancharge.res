@@ -2,6 +2,7 @@
 {	
     // sticky launcher holding meter
     // bow bruhh
+	// dont change xpos ypos, doesnt work
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
