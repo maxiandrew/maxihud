@@ -1,15 +1,283 @@
 "Scheme"
 {
-	"Fonts"
+	"Fonts" // VANILLA
 	{
-		"HudFontGiantBold"
+		"Default"
 		{
 			"1"
 			{
-			"name"		"TF2 Build"
-				"tall"		"44"
-				"weight"	"500"
-				"additive"	"0"
+				"name"		"Verdana"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+			}
+			"7"
+			{
+				"name"		"Arial"
+			}
+		}
+		"DefaultUnderline"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+			}
+			"2"
+			{
+				"name"		"Arial"
+			}
+		}
+		"DefaultSmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+			}
+			"6"
+			{
+				"name"		"Arial"
+			}
+		}
+		"DefaultVerySmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"DefaultLarge"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+			}
+			"7"
+			{
+				"name"		"Arial"
+			}
+		}
+		CenterPrintText
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+			}
+		}
+		"PlayerPanelPlayerName"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		HudHintText
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"SpectatorKeyHints"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"ClockSubText"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"ClockSubTextSuddenDeath"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"ClockSubTextTiny"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"GoalText"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"ScoreboardSmallest"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"ScoreboardVerySmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"TargetID"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"ChatFont"
+		{
+			"1"
+			{
+				"name"		"TF2"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"ChatMiniFont"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+			}
+			"5"
+			{
+				"name"		"Verdana"
 			}
 		}
 		"TFFontSmall"
@@ -17,142 +285,77 @@
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"8"
-				"weight"	"0"
-				"additive"	"1"
 			}
 		}
-	
-
-		"HudFontBiggerBold"
+		TFFontMedium
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"35"
-				"weight"	"500"
-				"additive"	"0"
+				"name"		"Verdana"
 			}
 		}
-
-
-		"HudFontMedium"
+		InstructionalText
 		{
 			"1"
 			{
-				"name"		"TF2"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
+				"name"		"Verdana"
 			}
 		}
-		"default"
+		MatchmakingDialogMenuSmall
 		{
 			"1"
 			{
-				"name"										"Verdana"
+				"name"		"Verdana"
+			}
+		}
+		MatchmakingDialogMenuSmallest
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		RankingDialogHeaders
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"ImportToolSmallestBold"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"ImportToolSmallest"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"SpectatorVerySmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"DefaultVerySmallFallBack"
+		{
+			"1"
+			{
+				"name"		"Verdana"
 			}
 			"2"
 			{
-				"name"										"Verdana"
+				"name"		"Verdana"
 			}
 			"3"
 			{
-				"name"										"Verdana"
-			}
-			"4"
-			{
-				"name"										"Verdana"
-			}									
-		}		
-		"CloseCaption"
-		{
-			"1"
-			{
-				"name"										"Verdana"
-			}
-		}
-		"CloseCaption_Italic"
-		{
-			"1"
-			{
-				"name"										"Verdana"
-			}
-		}
-		"CloseCaption_Bold"
-		{
-			"1"
-			{
-				"name"										"Verdana"
-			}
-		}
-		"CloseCaption_BoldItalic"
-		{
-			"1"
-			{
-				"name"										"Verdana"
-			}
-		}
-		"CloseCaption_Small"
-		{
-			"1"
-			{
-				"name"										"Verdana"
-			}
-		}
-		"ItemFontNameSmallest"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"8"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ItemFontNameSmall"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"9"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ItemFontNameLarge"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"12"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ItemFontNameLarger"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"18"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
-		"ItemFontAttribSmallest"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"7"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"		"Verdana"
 			}
 		}
 		ItemFontAttribSmallv2
@@ -160,58 +363,113 @@
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"8"
-				"antialias" "1"
-				"weight"	"500"
 			}
 		}
-		"ItemFontAttribSmall"
+		"AchievementTracker_Desc"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"8"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"		"Verdana"
 			}
 		}
-		"ItemFontAttribLarge"
+		"QuestObjectiveTracker_Desc"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
-			}
-		}	
-		"ItemFontAttribLarger"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"14"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"		"Verdana"
 			}
 		}
-		HudFontSmallBold	
+		"QuestObjectiveTracker_DescGlow"
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
-				"wide" "0"
+				"name"		"Verdana"
 			}
-		}	
-		centerprinttext	
+		}
+		"QuestObjectiveTracker_DescBlur"
 		{
 			"1"
 			{
-			//	"name"										"Verdana"
+				"name"		"Verdana"
 			}
-		}					
+		}
+		"ItemTrackerScore_InGame"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"AdFont_AdText"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"AdFont_PurchaseButton"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"TradeUp_Text"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"ReplayVerySmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+			}
+		}
+		"ReplaySmaller"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+			}
+			"6"
+			{
+				"name"		"Arial"
+			}
+		}
 	}
 }

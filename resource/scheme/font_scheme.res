@@ -256,19 +256,8 @@ Scheme
 				"antialias" "1"
 				"additive"	"1"
 			}
-		}		CenterPrintText
-		{
-			// note that this scales with the screen resolution
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"18"
-				"weight"	"900"
-				"antialias" "1"
-				"additive"	"1"
-			}
-		}
-
+		}	
+		
 		"PlayerPanelPlayerName"
 		{
 			"1"
@@ -1756,6 +1745,7 @@ Scheme
 				"name"		"TF2 Secondary"
 				"tall"		"8"
 				"weight"	"500"
+				"antialias" "1"				
 			}
 		}
 		"ItemFontAttribSmall"
