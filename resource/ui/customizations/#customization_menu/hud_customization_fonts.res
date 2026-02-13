@@ -929,7 +929,6 @@
 						"PaintBackground"				"1"
 						"BGcolor_Override"				"104 101 100 255"
 
-
 						"Style_Image"
 						{
 							"ControlName"				"ImagePanel"
@@ -1156,7 +1155,7 @@
 							"border_armed"				"BorderSelectionGray"
 						}
 					}	
-	"compact2"
+					"compact2"
 					{
 						"ControlName"					"EditablePanel"
 						"FieldName"						"compact2"
@@ -1170,8 +1169,6 @@
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"1"
 						"BGcolor_Override"				"104 101 100 255"
-
-
 
 						"Style_Image"
 						{
@@ -1365,7 +1362,7 @@
 							"border_armed"				"BorderSelectionGray"
 						}
 					}
-// DAMAGE SMALL MINUSLESS -------------------------------------------------------------------------------------------
+//
 					"12rowsextended"
 					{
 						"ControlName"					"EditablePanel"
@@ -1447,9 +1444,9 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionGray"
 						}
-					}		
-						
-				}		
+					}
+				}
+// CHARGE METERS/STICKYBOMB COUNTER -------------------------------------------------------------------------------------------				
 				"chargmeter"
 				{
 					"ControlName"						"EditablePanel"
@@ -1497,6 +1494,7 @@
 						"paintBackgroundtype"			"3"
 						"BGcolor_Override"				"Background_Bright"
 					}
+// TYPE A -------------------------------------------------------------------------------------------					
 					"8rows"
 					{
 						"ControlName"					"EditablePanel"
@@ -1504,7 +1502,7 @@
 						"XPos"							"-2"
 						"YPos"							"5"
 						"ZPos"							"1"
-						"Wide"							"68"
+						"Wide"							"136"
 						"Tall"							"68"
 						"Visible"						"1"
 						"Enabled"						"1"
@@ -1523,7 +1521,7 @@
 							"XPos"						"cs-0.5"
 							"YPos"						"cs-0.5-7"
 							"ZPos"						"0"
-							"Wide"						"70"
+							"Wide"						"140"
 							"Tall"						"70"
 							"Visible"					"1"
 							"Enabled"					"1"
@@ -1546,7 +1544,7 @@
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
-							"Font"						"FontStorePriceSmall"
+							"Font"						"FontStorePrice"
 							"LabelText"					"#HudCustomization_MaxiHud_Meter_Style1"
 							"TextAlignment"				"center"
 							"FGColor"					"Gray"
@@ -1579,7 +1577,7 @@
 							"border_armed"				"BorderSelectionGray"
 						}
 					}
-// DAMAGE SMALL MINUSLESS -------------------------------------------------------------------------------------------
+// TYPE B -------------------------------------------------------------------------------------------
 					"12rowsextended"
 					{
 						"ControlName"					"EditablePanel"
@@ -1587,7 +1585,7 @@
 						"XPos"							"5"
 						"YPos"							"0"
 						"ZPos"							"1"
-						"Wide"							"68"
+						"Wide"							"136"
 						"Tall"							"68"
 						"Visible"						"1"
 						"Enabled"						"1"
@@ -1606,7 +1604,7 @@
 							"XPos"						"cs-0.5"
 							"YPos"						"cs-0.5-7"
 							"ZPos"						"0"
-							"Wide"						"70"
+							"Wide"						"140"
 							"Tall"						"70"
 							"Visible"					"1"
 							"Enabled"					"1"
@@ -1629,7 +1627,7 @@
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
-							"Font"						"FontStorePriceSmall"
+							"Font"						"FontStorePrice"
 							"LabelText"					"#HudCustomization_MaxiHud_Meter_Style2"
 							"TextAlignment"				"center"
 							"FGColor"					"Gray"
@@ -1662,8 +1660,7 @@
 							"border_armed"				"BorderSelectionGray"
 						}
 					}		
-						
-				}				
+				}
 				"walk"
 				{
 					"ControlName"						"EditablePanel"
@@ -1672,7 +1669,7 @@
 					"YPos"								"450"
 					"ZPos"								"20"
 					"Wide"								"f7"
-					"Tall"								"100"
+					"Tall"								"140"
 					"Visible"							"1"
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
@@ -1793,6 +1790,102 @@
 							"border_armed"				"BorderSelectionGray"
 						}
 					}
+					"Explanation_1"
+					{
+						"ControlName"					"CExLabel"
+						"FieldName"						"Explanation_1"
+						"XPos"							"6"
+						"YPos"							"95"
+						"ZPos"							"1"
+						"Wide"							"f10"
+						"Tall"							"15"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"mouseinputenabled"				"0"
+						"ProportionalToParent"			"1"
+						"Wrap"							"1"
+						"CenterWrap"					"0"
+						"Font"							"FontStoreOriginalPrice"
+						"labeltext"						"#HudCustomization_MaxiHud_Walkway_Download"
+						"TextAlignment"					"North-West"
+						"FGColor"						"Gray"
+					}
+					"DownloadButton_1"
+					{
+						"ControlName"					"CExImageButton"
+						"FieldName"						"DownloadButton_1"
+						"XPos"							"4"
+						"YPos"							"107"
+						"ZPos"							"20"
+						"Wide"							"160"
+						"Tall"							"15"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ActionSignalLevel"				"5"
+						"ProportionalToParent"			"1"
+						"AllCaps"						"1"
+						"Font"							"HudFontSmallestBold"
+						"LabelText"						"#HudCustomization_MaxiHud_WW_Download1"
+						"TextAlignment"					"west"
+						"textinsetx"					"35"
+						"Command"						"url https://gamebanana.com/mods/74812"
+						"Sound_Depressed"				"UI/buttonclick.wav"
+						"PaintBackground"				"1"
+						"image_drawcolor"				"235 226 202 255"
+						
+						"SubImage"
+						{
+							"ControlName"	"ImagePanel"
+							"fieldName"		"SubImage"
+							"xpos"			"3"
+							"ypos"			"3"
+							"zpos"			"1"
+							"wide"			"10"
+							"tall"			"10"
+							"visible"		"1"
+							"enabled"		"1"
+							"image"			"../vgui/replay/thumbnails/glyph_link"
+							"scaleImage"	"1"
+						}
+					}
+					"DownloadButton_2"
+					{
+						"ControlName"					"CExImageButton"
+						"FieldName"						"DownloadButton_2"
+						"XPos"							"4+163"
+						"YPos"							"107"
+						"ZPos"							"20"
+						"Wide"							"160"
+						"Tall"							"15"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ActionSignalLevel"				"5"
+						"ProportionalToParent"			"1"
+						"AllCaps"						"1"
+						"Font"							"HudFontSmallestBold"
+						"LabelText"						"#HudCustomization_MaxiHud_WW_Download2"
+						"TextAlignment"					"west"
+						"textinsetx"					"35"
+						"Command"						"url https://gamebanana.com/mods/74813"
+						"Sound_Depressed"				"UI/buttonclick.wav"
+						"PaintBackground"				"1"
+						"image_drawcolor"				"235 226 202 255"						
+						
+						"SubImage"
+						{
+							"ControlName"	"ImagePanel"
+							"fieldName"		"SubImage"
+							"xpos"			"3"
+							"ypos"			"3"
+							"zpos"			"1"
+							"wide"			"10"
+							"tall"			"10"
+							"visible"		"1"
+							"enabled"		"1"
+							"image"			"../vgui/replay/thumbnails/glyph_link"					
+							"scaleImage"	"1"
+						}
+					}
 // DAMAGE SMALL MINUSLESS -------------------------------------------------------------------------------------------
 					"12rowsextended"
 					{
@@ -1875,15 +1968,15 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionGray"
 						}
-					}		
-						
-				}		
+					}
+				}
+				
 				"buildstatus"
 				{
 					"ControlName"						"EditablePanel"
 					"FieldName"							"buildstatus"
 					"XPos"								"0"
-					"YPos"								"550"
+					"YPos"								"550+30"
 					"ZPos"								"20"
 					"Wide"								"f7"
 					"Tall"								"100"
@@ -2097,7 +2190,7 @@
 					"ControlName"						"EditablePanel"
 					"FieldName"							"vgui1"
 					"XPos"								"0"
-					"YPos"								"650"
+					"YPos"								"650+30"
 					"ZPos"								"20"
 					"Wide"								"f7"
 					"Tall"								"100"

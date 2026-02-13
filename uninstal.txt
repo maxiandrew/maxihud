@@ -1,0 +1,2 @@
+When uninstalling MaxiHud v17 or later, delete the "maxihud" folder and "maxihud_temporary_cfg_backup.cfg" file in your game's "cfg" folder.
+\steamapps\common\Team Fortress 2\tf\cfg
