@@ -18,7 +18,10 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}
-
+	"ChargeLabel"
+	{
+		"Wide"										"0"
+	}
 	"PipesPresentPanel"
 	{
 		"ControlName"	"EditablePanel"

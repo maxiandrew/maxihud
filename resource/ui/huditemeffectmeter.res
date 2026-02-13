@@ -8,7 +8,7 @@
 		"xpos"			"c-30"
 		"ypos"			"c82"
 		"xpos_minmode"	"r115"
-		"ypos_minmode"	"c197"
+		"ypos_minmode"	"c195"
 		"wide"			"60"
 		"tall"			"15"
 		"MeterFG"		"TanLight"

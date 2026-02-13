@@ -2127,7 +2127,7 @@
 					{
 						"ControlName"					"CExLabel"
 						"FieldName"						"Restart_Warning"
-						"XPos"							"285"
+						"XPos"							"300"
 						"YPos"							"-1"
 						"ZPos"							"0"
 						"Wide"							"20"

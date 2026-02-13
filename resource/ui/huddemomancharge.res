@@ -3,6 +3,7 @@
     // sticky launcher holding meter
     // bow bruhh
 	// dont change xpos ypos, doesnt work
+	// always has to be 0
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -18,6 +19,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
+		bgcolor_override "Background_Bright"
 		"dulltext"		"0"
 		"brighttext"	"0"
 					

@@ -885,7 +885,7 @@
 		"tall"	"180" [$X360]
 		"PaintBackgroundType"	"0"
 	}
-	"HudDemomanPipes"
+	"HudDemomanPipes" // pin
 	{
 		"fieldName"	"HudDemomanPipes"
 		"visible"	"1"
@@ -894,6 +894,21 @@
 		"ypos"	"3"
 		"wide"	"f0"
 		"tall"	"480"
+	}
+	"HudDemomanCharge"
+	{
+		"fieldName"	"HudDemomanCharge"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"	"c105"
+		"xpos_minmode"	"r110"
+		"ypos"	"c80"
+		"ypos_minmode"	"r85"
+		"zpos"	"1"
+		"wide"	"50"
+		"tall"	"5"
+		"MeterFG"	"White"
+		"MeterBG"	"Gray"
 	}
 	"HudTeamGoal"
 	{
