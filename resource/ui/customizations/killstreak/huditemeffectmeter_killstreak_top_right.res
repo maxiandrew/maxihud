@@ -2,8 +2,8 @@
 {
 	"HudItemEffectMeter"
 	{
-		"xpos"	"r50"
-		"ypos"	"24"
+		"xpos"	"r52"
+		"ypos"	"23"
 	}
 	"ItemEffectMeterCount"
 	{
