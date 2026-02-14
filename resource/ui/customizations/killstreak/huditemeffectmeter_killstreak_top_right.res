@@ -9,7 +9,8 @@
 	{
 		"xpos" "7"
 		ypos "2"
-		"tall" "20"
+		"tall" "15"
+		textinsety "-2"
 		"font" "HudFontSmallishBold"
 	}
 	"ItemEffectMeterBG"
@@ -24,7 +25,7 @@
 		xpos "6"
 
 		"tall" "20"
-		"visible"		"1"
+		"visible"		"0"
 
 		"labeltext" "K:"
 
@@ -32,4 +33,16 @@
 
 		"font" "HudFontSmallishBold"
 	}
+	"KillstreakLabelIG"
+	{
+		fieldName KillstreakLabelIG
+		ControlName imagepanel
+		xpos "2"
+		ypos 2
+		wide 15
+		tall o1
+		scaleImage 1
+		image "replay/thumbnails/ks"
+		visible 1
+			}	
 }

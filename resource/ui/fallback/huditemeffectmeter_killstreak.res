@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"c-72"
 		"ypos"			"c82"
-		"xpos_minmode"	"r50"
-		"ypos_minmode"	"24"		
+		"xpos_minmode"	"0+p0.098"
+		"ypos_minmode"	"rs1-20"		
 		"wide"			"40"
 		"tall"			"24"
 		"MeterFG"		"White"
@@ -25,7 +25,7 @@
 		"zpos"			"0"
 		"wide"			"40"
 		"tall"			"24"
-		"tall_minmode" "18"
+
 		"visible"		"1"
 		"enabled"		"1"
 		"alpha"			"230"
@@ -89,13 +89,13 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"0"
-		"xpos_minmode" "7"
+
 		"ypos"					"0"
-		ypos_minmode "1"
+
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"24"
-		"tall_minmode" "20"	
+			
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -105,7 +105,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMediumSmallBold"
-		"font_minmode" "HudFontSmallishBold"
+
 	}
 	
 	"KillstreakLabel"
@@ -113,26 +113,25 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"KillstreakLabel"
 		"xpos"					"1"
-		xpos_minmode "6"
+	
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"24"
-		"tall_minmode" "18"
-		"visible_minmode"		"1"
+
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"KILLSTREAK"
-		"labeltext_minmode" "K:"
+
 		"textAlignment"			"south"
 		"dulltext"				"0"
-		"textalignment_minmode" "west"
+	
 		"brighttext"			"0"
 		"font"		"TFFontSmall" [$WINDOWS]
 		"font"		"ControlPointTimerSmaller" [$LINUX]	
-		"font_minmode" "HudFontSmallishBold"
+
 		"fgcolor"				"TanLight"
 	}
 }
