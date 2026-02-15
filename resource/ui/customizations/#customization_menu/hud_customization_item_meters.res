@@ -291,7 +291,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"FontStorePrice"
-							"LabelText"					"#HudCustomization_Health_Style2"
+							"LabelText"					"#HudCustomization_Killstreak_Style2"
 							"TextAlignment"				"center"
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"

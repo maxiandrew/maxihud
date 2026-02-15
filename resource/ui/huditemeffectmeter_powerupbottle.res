@@ -10,7 +10,7 @@
 		"ypos"			"c46"
 		"ypos_minmode"	"r130"
 		"wide"			"64"
-		"tall"			"p0.2"
+		"tall"			"27"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -35,7 +35,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"3"
-		"ypos"					"0+p0.07"
+		"ypos"					"20"
 		"zpos"					"2"
 		"wide"					"30"
 		"tall"					"8"
