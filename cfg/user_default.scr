@@ -40,14 +40,6 @@ DESCRIPTION INFO_OPTIONS
 		{ CATEGORY }
 	}
 	
-	"voice_modenable"
-	{
-		"#TF_EnableVoiceChat"
-		"#Tooltip_EnableVoiceChat"
-		{ BOOL }
-		{ "0" }
-	}
-	
 	"cl_enable_text_chat"
 	{
 		"#TF_EnableTextChat"
@@ -55,6 +47,29 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
+	
+	"voice_enable"
+	{
+		"#TF_EnableVoiceChat"
+		"#Tooltip_EnableVoiceChat"
+		{ BOOL }
+		{ "1" }
+	}	
+	
+	"voice_modenable"
+	{
+		"#EnableMicrophone"
+		"#ToolTip_EnableMicrophone"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"voice_scale"
+	{
+		"#GameUI_VoiceReceiveVolume"
+		{ SLIDER 0 1 }
+		{ "1" }
+	}	
 	
 	"chat_filter_settings"
 	{

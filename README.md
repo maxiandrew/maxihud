@@ -6,14 +6,15 @@ This is **MaxiHud**, a modification of [bowieHUD](https://gamebanana.com/mods/43
 
 # Features
 
+- Fully customizable to suit your preferences!
 - *Quickplay* allows you to easily find a community server.
 - Access [Mercenary Mode](https://steamcommunity.com/sharedfiles/filedetails/?id=3325521784) and [Walkway](https://gamebanana.com/mods/74812) in the Training selection menu.
 - Access [Potato MvM](https://potato.tf/) servers in the MvM selection menu.
-- Keep listening to tunes with the music player from **@RoseyLemonz**, originally created by [SexyLion](https://gamebanana.com/members/1749671).
+- Keep listening to tunes with the music player from [RoseyLemonz](https://github.com/RoseyLemonz), originally created by [SexyLion](https://gamebanana.com/members/1749671).
 - Conveniently record your games by toggling demo recording in the MaxiHud Settings menu.
 - Watch your demos you've recorded by pressing the *Demo Player* button with a TV icon on the main menu to bring up the Demo Playback menu.
 - Having server problems? You can attempt to reconnect to the server with the *Retry Connection* button while in-game. (Only in community servers)
-- Want to be safe when playing TF2? Enable *Safety Mode* in the MaxiHud Settings menu to hide text chat, custom sprays & decals and mute voice chat.
+- Want to be safe when playing TF2? Enable *Streamer Mode* in the MaxiHud Settings menu to hide avatars, usernames, and server names to avoid stream sniping and DDoS attacks.
 - Keyboard interacts in menus to perform actions quickly.
 - *Cornered HUD* to put HUD elements in the corners of your screen.
 - A unique countdown timer for MvM and Casual mode.
@@ -25,9 +26,8 @@ This is **MaxiHud**, a modification of [bowieHUD](https://gamebanana.com/mods/43
 - TF2-style VGUI from [Azarciel](https://gamebanana.com/members/3618549).
 - A Hide button when being revived in MvM from [sigsegv](https://gamebanana.com/members/1423972).
 - Improved casual medals from [AGoJyt](https://gamebanana.com/members/1660549).
-- [Custom crosshairs](https://github.com/Hypnootize/TF2-HUD-Crosshairs) and health screen effects from @Hypnootize.
+- Custom crosshairs and health screen effects from [Hypnootize](https://github.com/Hypnootize).
 - Fixes and improvements to the bowieHUD v1.6 base.
-- Fully customizable to suit your preferences!
 - And many more!
 
 
@@ -68,29 +68,30 @@ If you dont have a "custom" folder, make one.
 
 # Authors
 
-- **@maxiandrew** - Creater/Developer
+- [**maxiandrew**](https://github.com/maxiandrew) - Creater/Developer
+- [**Jofre-Problem**](https://github.com/Jofre-Problem) - Co-Developer
 - [**anarch0possum**](https://gamebanana.com/members/2124438) - Based on the work of [bowieHUD](https://gamebanana.com/mods/432539)
 
 ## Includes elements from
 - [**Eniere**](https://steamcommunity.com/id/eniere/) - [Improved Default HUD](https://gamebanana.com/mods/26482)
 - [**Chuzzy**](https://gamebanana.com/members/1329795) / [**TheIcyStar**](https://gamebanana.com/members/1367671) - [Numerical Health Values](https://gamebanana.com/mods/26718)
 - [**Azarciel**](https://gamebanana.com/members/3618549) - [VGUI Facelift ](https://gamebanana.com/mods/530974)
-- **@Vexcenot** - Payload cart icon from [Middle Mann Centered HUD](https://github.com/Vexcenot/-middle-mann)
+- [**Vexcenot**](https://github.com/Vexcenot) - Payload cart icon from [Middle Mann Centered HUD](https://github.com/Vexcenot/-middle-mann)
 - [**Aarmastah**](https://gamebanana.com/members/1592670) - [Selbyen HUD Icons](https://gamebanana.com/mods/459755)
 - [**Tkain**](https://gamebanana.com/members/1582147) - [Absolutely HD Item Icons](https://gamebanana.com/mods/316151)
-- [**Bunslinger**](https://gamebanana.com/members/1428879) - [TF2 Secondary Font Fix](https://gamebanana.com/mods/466197)
 - [**lightwo**](https://gamebanana.com/members/1924200) - [Disable Surveys](https://gamebanana.com/mods/390865)
 - [**SexyLion**](https://gamebanana.com/members/1749671) - Original creator of [Music player and buttons](https://gamebanana.com/mods/576607)
 - [**pilso**](https://gamebanana.com/members/1664112) / [**The True Milkman**](https://gamebanana.com/members/2286260) - Quickplay menu based on [Quickplay Over Competitive Menu](https://gamebanana.com/mods/546791) and OldVsNew HUD
 - [**sigsegv**](https://gamebanana.com/members/1423972) - [MvM revive window "hide" button](https://gamebanana.com/mods/26609)
 - [**AGoJyt**](https://gamebanana.com/members/1660549) - [Fixed Casual medals](https://gamebanana.com/members/1660549)
-- **@RoseyLemonz** - Music player/buttons and team status bar from [Center HUD](https://github.com/RoseyLemonz/center-hud)
-- **@Hypnootize** - Health screen effects from [m0rehud](https://github.com/Hypnootize/m0rehud) and [custom crosshairs](https://github.com/Hypnootize/TF2-HUD-Crosshairs)
-- [**Eminoma**](https://tf2classic.com/) - Team Fortress 2 Classified vote icons
+- [**RoseyLemonz**](https://github.com/RoseyLemonz) - Music player/buttons and team status bar from [Center HUD](https://github.com/RoseyLemonz/center-hud)
+- [**Hypnootize**](https://github.com/Hypnootize) - Health screen effects and customization menu from [m0rehud](https://github.com/Hypnootize/m0rehud) and [custom crosshairs](https://github.com/Hypnootize/TF2-HUD-Crosshairs)
+- [**Eminoma**](https://tf2classified.com/) - Team Fortress 2 Classified vote and class icons
 
 ## Special thanks to
 
-- **@Niterux**
+- [**Jofre-Problem**](https://github.com/Jofre-Problem) - For helping with the development of v17
+- [**Niterux**](https://github.com/Niterux)
 
 # License
 

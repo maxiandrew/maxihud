@@ -1480,7 +1480,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"FontStorePriceSmall"
-							"LabelText"					"#HudCustomization_Centered"
+							"LabelText"					"#HudCustomization_Damage_LastDone_Style3"
 							"TextAlignment"				"center"
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
