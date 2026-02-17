@@ -1,3 +1,4 @@
+#base "vguipreload.res"
 #base "../../../../cfg/maxihud/hud_friendslist.txt"
 #base "customizations/#customization_menu/hud_customization.res"
 #base "../ui/main_menu/menu_general.res"

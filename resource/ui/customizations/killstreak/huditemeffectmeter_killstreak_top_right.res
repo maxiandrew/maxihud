@@ -3,7 +3,9 @@
 	"HudItemEffectMeter"
 	{
 		"xpos"	"r52"
+		"xpos_minmode"	"r52"
 		"ypos"	"23"
+		"ypos_minmode" "23"
 	}
 	"ItemEffectMeterCount"
 	{
