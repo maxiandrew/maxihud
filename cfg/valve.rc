@@ -17,8 +17,6 @@ stuffcmds
 startupmenu
 
 sv_unlockedchapters 99
-tf_hud_show_servertimelimit 1
-sv_allow_point_servercommand always
 exec music.cfg
 
 //	Customization Stuff
