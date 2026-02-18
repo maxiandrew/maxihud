@@ -1235,6 +1235,9 @@ Scheme
 		"xpos"			"0-p0.015"
 		"ypos"			"-12"
 		"wide"			"70"
+
+		"auto_wide_tocontents" "1"
+		
 		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -1289,6 +1292,9 @@ Scheme
 		"textinsetx"	"25"
 		"use_proportional_insets" "1"
 		"font"			"HudFontSmallBold"
+
+		"auto_wide_tocontents" "1"
+
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"

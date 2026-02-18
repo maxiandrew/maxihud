@@ -2645,7 +2645,7 @@ Scheme
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-		"font" "resource/fonts/tf2.ttf"
+		"font" "resource/tf2.ttf"
 		"name" "TF2"
 		
 			"russian"
@@ -2727,7 +2727,7 @@ Scheme
 		}
 		"4" 
 		{
-		"font" "resource/fonts/tf2secondary.ttf"
+		"font" "resource/tf2secondary.ttf"
 		"name" "TF2 Secondary"
 		
 			"russian"
@@ -2809,7 +2809,7 @@ Scheme
 		}
 		"5" 
 		{
-		"font" "resource/fonts/tf2professor.ttf"
+		"font" "resource/tf2professor.ttf"
 		"name" "TF2 Professor"
 
 			"russian"
@@ -2891,7 +2891,7 @@ Scheme
 		}
 		"6" 
 		{
-		"font" "resource/fonts/tf2build.ttf"
+		"font" "resource/tf2build.ttf"
 		"name" "TF2 Build"
 		
 			"russian"
@@ -2978,7 +2978,7 @@ Scheme
 		}		
 		"7" 
 		{
-		"font"	"resource/fonts/ocra.ttf"
+		"font"	"resource/ocra.ttf"
 		"name" "ocra"	
 
 			"russian"
