@@ -1,0 +1,5 @@
+If you have the folder "_ModLimitFix" installed, remove its "chat_english.txt" file in order for the HUD's custom text to be displayed correctly.
+
+The "chat_english.txt" file will be re-added every time you use the "mod_limit_fix.bat" executable.
+
+Do NOT remove the "chat_english.txt" file inside the "maxihud" folder!
