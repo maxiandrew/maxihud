@@ -1236,7 +1236,7 @@ Scheme
 		"ypos"			"-12"
 		"wide"			"70"
 
-		"auto_wide_tocontents" "1"
+		"auto_wide_tocontents" "0"
 		
 		"tall"			"26"
 		"autoResize"	"0"
@@ -1293,7 +1293,7 @@ Scheme
 		"use_proportional_insets" "1"
 		"font"			"HudFontSmallBold"
 
-		"auto_wide_tocontents" "1"
+		"auto_wide_tocontents" "0"
 
 		"textAlignment"	"west"
 		"dulltext"		"0"

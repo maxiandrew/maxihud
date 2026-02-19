@@ -5,6 +5,7 @@
 #base "../ui/main_menu/menu_maxihudinfo.res"
 #base "../ui/main_menu/menu_musicplayer.res"
 #base "../ui/main_menu/menu_specialbuttons.res"
+#base "../ui/main_menu/menu_mybuttons.res"
 
 //#base "../ui/main_menu/menu_maxihudsettings.res"
 "X"

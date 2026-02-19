@@ -543,7 +543,7 @@
 							"ProportionalToParent"		"1"
 							"LabelText"					""
 							"TextAlignment"				"west"
-							"Command"					"engine sv_cheats 0 1"
+							"Command"					"engine toggle sv_cheats 0 1"
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"PaintBackground"			"1"
 							"PaintBorder"				"0"

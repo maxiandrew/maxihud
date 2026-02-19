@@ -254,7 +254,7 @@
 		"ControlName"	"Panel"
 		"fieldName"	"BuildingAnchor"
 		"xpos"	"12"
-		"ypos"	"0"
+		"ypos"	"139"
 		"zpos"	"0"
 		"wide"	"0"
 		"tall"	"0"
