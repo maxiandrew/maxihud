@@ -6,7 +6,7 @@
 		{
 			"1"
 			{
-				"name"										"tf2 secondary"
+				"name"										"tf2secondary_fix"
 				"Tall"										"28"
 				"antialias"									"1"
 			}
@@ -24,7 +24,7 @@
 		{
 			"1"
 			{
-				"name"										"tf2 secondary"//"verdana"
+				"name"										"tf2secondary_fix"//"verdana"
 				"Tall"										"22"
 				"antialias"									"1"
 			}

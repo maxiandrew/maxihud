@@ -577,7 +577,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2secondary_fix"
 				"tall"		"17"
 				"weight"	"500"
 				"antialias" "1"
@@ -601,7 +601,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2secondary_fix"
 				"tall"		"14"
 				"weight"	"500"
 				"antialias" "1"
@@ -612,7 +612,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2secondary_fix"
 				"tall"		"14"
 				"weight"	"0"
 				"antialias" "1"
@@ -623,7 +623,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2secondary_fix"
 				"tall"		"17"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -631,7 +631,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2secondary_fix"
 				"tall"		"17"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -639,7 +639,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2secondary_fix"
 				"tall"		"17"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -648,7 +648,7 @@ Scheme
 			}
 			"4" // 1920x1080
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2secondary_fix"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -657,7 +657,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2secondary_fix"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -670,7 +670,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2secondary_fix"
 				"tall"		"18"
 				"weight"	"500"
 				"antialias"	"1"
@@ -681,7 +681,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary" [!$OSX]
+				"name"		"tf2secondary_fix" [!$OSX]
 				"name"		"Verdana Bold" [$OSX]
 				"weight"		"1500"
 				"tall"			"16" [!$OSX]
@@ -694,7 +694,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary" [!$OSX]
+				"name"		"tf2secondary_fix" [!$OSX]
 				"name"		"Verdana Bold" [$OSX]
 				"weight"		"1500"
 				"tall"			"18" [!$OSX]
@@ -707,7 +707,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary" [!$OSX]
+				"name"		"tf2secondary_fix" [!$OSX]
 				"name"		"Verdana" [$OSX]
 				"weight"		"1000"
 				"tall"			"14" [!$OSX]
@@ -722,8 +722,8 @@ Scheme
 	{
 		"tf2s" 
 		{
-			"font" "resource/tf2secondary.ttf"
-			"name" "TF2 Secondary"
+			"font" "resource/tf2secondary_fix.ttf"
+			"name" "tf2secondary_fix"
 			"turkish"
 			{
 				"range" "0x0000 0x015F"

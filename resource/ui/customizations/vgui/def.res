@@ -348,12 +348,12 @@ Scheme
 			}
 		}
 
-		// CUSTOM: Changing these to use TF2 Secondary to improve appearance in player UI (ie. Mannpower pickups, Headless Horsemann 'IT' text, MvM 'Invalid Inspect Target')
+		// CUSTOM: Changing these to use tf2secondary_fix to improve appearance in player UI (ie. Mannpower pickups, Headless Horsemann 'IT' text, MvM 'Invalid Inspect Target')
 		"Trebuchet24"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2secondary_fix"
 				"tall"		"12"
 				"weight"	"900"
 				"antialias" "1"
@@ -365,7 +365,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2secondary_fix"
 				"tall"		"8"
 				"weight"	"900"
 				"antialias" "1"
@@ -377,7 +377,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2secondary_fix"
 				"tall"		"6"
 				"weight"	"900"
 				"antialias" "1"

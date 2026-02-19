@@ -1,5 +1,5 @@
 //Hitmaker
-
+event DamagedPlayer{RunEvent HitmarkerFlash 0.0}
 
 //===========================================
 
