@@ -1,11 +1,9 @@
-![Logo](https://images.gamebanana.com/img/ss/mods/67b9b9277bf51.jpg)
+![Logo](https://images.gamebanana.com/img/ss/mods/699788771964d.jpg)
 
 # About
-
 This is **MaxiHud**, a modification of [bowieHUD](https://gamebanana.com/mods/432539) (v1.6) with some elements from the [Improved Default HUD](https://gamebanana.com/mods/26482) that gives you a similar look as vanilla with enhancements to the UI and the user experience.
 
 # Features
-
 - Fully customizable to suit your preferences!
 - *Quickplay* allows you to easily find a community server.
 - Access [Mercenary Mode](https://steamcommunity.com/sharedfiles/filedetails/?id=3325521784) and [Walkway](https://gamebanana.com/mods/74812) in the Training selection menu.
@@ -19,7 +17,7 @@ This is **MaxiHud**, a modification of [bowieHUD](https://gamebanana.com/mods/43
 - *Cornered HUD* to put HUD elements in the corners of your screen.
 - A unique countdown timer for MvM and Casual mode.
 - Vote icons from Team Fortress 2 Classified with contextual text colouring for the vote menu.
-- Default fonts replaced with TF2 fonts.
+- Default fonts replaced with TF2 fonts, with support for multiple languages, courtesy of [**jakadak**](https://github.com/jakadak).
 - Payload icon by [Vexcenot](https://gamebanana.com/members/2134385).
 - Icons for Selbyen by [Aar](https://gamebanana.com/members/1592670).
 - HD item icons from [Tkain](https://gamebanana.com/members/1582147).
@@ -27,38 +25,47 @@ This is **MaxiHud**, a modification of [bowieHUD](https://gamebanana.com/mods/43
 - A Hide button when being revived in MvM from [sigsegv](https://gamebanana.com/members/1423972).
 - Improved casual medals from [AGoJyt](https://gamebanana.com/members/1660549).
 - Custom crosshairs and health screen effects from [Hypnootize](https://github.com/Hypnootize).
-- Fixes and improvements to the bowieHUD v1.6 base.
 - And many more!
 
+*There is limited support for Spanish, Italian, Ukrainian and Russian. Some text in the UI may not scale correctly while others haven't been translated yet.*
 
 # Installation
-
-Once downloaded, go into the ZIP file and put its folder into your "custom" folder inside the "tf" folder.
+Once downloaded, go into the ZIP file and put its folder into your `custom` folder inside the "tf" folder.
 
 ```bash
 \steamapps\common\Team Fortress 2\tf\custom
 ```
 
-If you dont have a "custom" folder, make one.
+If you dont have a `custom` folder, make one.
+
+## Mod Limit Fix
+If you have [Mod Limit Fixer/Updater](https://gamebanana.com/tools/16705) installed, go into the `_ModLimitFix` folder and remove its `chat_english.txt` file in order for the HUD's custom text to be displayed correctly.
+
+The `chat_english.txt` file will be re-added every time you use the `mod_limit_fix.bat` executable.
+
+Do NOT remove the `chat_english.txt` file inside the `maxihud` folder!
+
+# Uninstallation
+When uninstalling MaxiHud v17 or later, delete the `maxihud` folder and `maxihud_temporary_cfg_backup.cfg` file in your game's `cfg` folder.
+
+```bash
+\steamapps\common\Team Fortress 2\tf\cfg
+```
     
 # Screenshots
+![App Screenshot](https://images.gamebanana.com/img/ss/mods/6997885801058.jpg)
 
-![App Screenshot](https://images.gamebanana.com/img/ss/mods/6840499c9001e.jpg)
+![App Screenshot](https://images.gamebanana.com/img/ss/mods/6997885854f06.jpg)
 
-![App Screenshot](https://images.gamebanana.com/img/ss/mods/6840499dc7eb2.jpg)
+![App Screenshot](https://images.gamebanana.com/img/ss/mods/69978859bcdd9.jpg)
 
-![App Screenshot](https://images.gamebanana.com/img/ss/mods/6840499875002.jpg)
-
-![App Screenshot](https://images.gamebanana.com/img/ss/mods/6840499cae51a.jpg)
-
-![App Screenshot](https://images.gamebanana.com/img/ss/mods/6840499dd28a3.jpg)
-
-![App Screenshot](https://images.gamebanana.com/img/ss/mods/6840499dee29e.jpg)
+![App Screenshot](https://images.gamebanana.com/img/ss/mods/69978856896c8.jpg)
 
 [**See more screenshots**](https://mega.nz/folder/3NxT3Dbb#mwdmx-_jfkCHRe1LDz_cQQ)
 
-# Add-Ons
+*Some screenshots may show previous versions than what's featured in-game.*
 
+# Add-Ons
 - [MaxiCross](https://gamebanana.com/mods/467250)
 - [MaxiCross+](https://gamebanana.com/mods/511274)
 - [Alternate Class Portraits Redone](https://gamebanana.com/mods/472874)
@@ -67,7 +74,6 @@ If you dont have a "custom" folder, make one.
 - [Extended Keyboard Settings Menu](https://gamebanana.com/mods/528934)
 
 # Authors
-
 - [**maxiandrew**](https://github.com/maxiandrew) - Creater/Developer
 - [**Jofre-Problem**](https://github.com/Jofre-Problem) - Co-Developer
 - [**anarch0possum**](https://gamebanana.com/members/2124438) - Based on the work of [bowieHUD](https://gamebanana.com/mods/432539)
@@ -86,6 +92,7 @@ If you dont have a "custom" folder, make one.
 - [**AGoJyt**](https://gamebanana.com/members/1660549) - [Fixed Casual medals](https://gamebanana.com/members/1660549)
 - [**RoseyLemonz**](https://github.com/RoseyLemonz) - Music player/buttons and team status bar from [Center HUD](https://github.com/RoseyLemonz/center-hud)
 - [**Hypnootize**](https://github.com/Hypnootize) - Health screen effects and customization menu from [m0rehud](https://github.com/Hypnootize/m0rehud) and [custom crosshairs](https://github.com/Hypnootize/TF2-HUD-Crosshairs)
+- [**jakadak**](https://github.com/jakadak) - [TF2 extended fonts](https://github.com/jakadak/TF2-extended-fonts)
 - [**Eminoma**](https://tf2classified.com/) - Team Fortress 2 Classified vote and class icons
 
 ## Special thanks to
