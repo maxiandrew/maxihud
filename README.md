@@ -30,7 +30,7 @@ This is **MaxiHud**, a modification of [bowieHUD](https://gamebanana.com/mods/43
 *There is limited support for Spanish, Italian, Ukrainian and Russian. Some text in the UI may not scale correctly while others haven't been translated yet.*
 
 # Installation
-Once downloaded, go into the ZIP file and put its folder into your `custom` folder inside the "tf" folder.
+Once downloaded, go into the ZIP file and put its folder into your `custom` folder inside the `tf` folder.
 
 ```bash
 \steamapps\common\Team Fortress 2\tf\custom
