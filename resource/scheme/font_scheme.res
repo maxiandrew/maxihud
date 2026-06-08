@@ -4,6 +4,200 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
+		"m0refont30"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"30"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont30Shadow"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"30"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont30Outline"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"30"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"tf2build_minus"
+				"tall"										"30"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}		
+		"m0refont16"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"16"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont16Shadow"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"16"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont18"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"18"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont18Shadow"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"18"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont18Outline"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"18"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"tf2build_minus"
+				"tall"										"18"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		"m0refont20"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"20"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont20Shadow"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"20"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont20Outline"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"20"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		"m0refont22"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"22"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont22Shadow"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"22"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont22Outline"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"22"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		"m0refont24"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"24"
+				"antialias" 								"1"
+			}
+		}
+		"m0refont24Shadow"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"24"
+				"antialias" 								"1"
+				"dropshadow" 								"1"
+			}
+		}
+		"m0refont24Outline"
+		{
+			"1"
+			{
+				"name"										"TF2 Build"
+				"tall"										"24"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"tf2build_minus"
+				"tall"										"24"
+				"antialias" 								"1"
+				"outline" 									"1"
+			}
+		}		
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
@@ -2643,6 +2837,7 @@ Scheme
 	{
 		"1" "resource/tf.ttf"
 		"2" "resource/tfd.ttf"
+		"rrrr" "resource/fonts/tf2build_minus.otf"
 		"3"
 		{
 		"font" "resource/tf2.ttf"
