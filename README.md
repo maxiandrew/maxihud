@@ -38,6 +38,9 @@ Once downloaded, go into the ZIP file and put its folder into your `custom` fold
 
 If you've instal it through GitHub, make sure to rename its folder from `maxihud-main` to `maxihud`.
 
+## Launch Options
+Before launching the game with this HUD, be sure to remove any `-exec` commands in your launch options.
+
 ## Mod Limit Fix
 If you have [Mod Limit Fixer/Updater](https://gamebanana.com/tools/16705) installed, go into the `_ModLimitFix` folder and remove its `chat_english.txt` file in order for the HUD's custom text to be displayed correctly.
 
