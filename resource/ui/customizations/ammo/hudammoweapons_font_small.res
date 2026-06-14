@@ -10,7 +10,6 @@
 	}
 	"AmmoInReserve"
 	{
-		"YPos"										"-2"
 		"Font"										"m0refont20"
 	}
 	"AmmoInReserveShadow"
