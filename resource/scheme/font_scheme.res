@@ -2629,6 +2629,18 @@ Scheme
 			}
 		}
 		
+		"TeamMenuSpectateFont"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"8"
+				"weight"	"0"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		"ProgressShadow"
 		{
 			"1"

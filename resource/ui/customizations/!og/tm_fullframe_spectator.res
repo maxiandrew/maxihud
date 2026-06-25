@@ -177,15 +177,15 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Mouse1Icon"
-		"xpos"			"30"
-		"ypos"			"35"
+		"xpos"			"28"
+		"ypos"			"34"
 		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
+		"wide"			"12"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"replay/thumbnails/hud/mouse1_icon_shadow"
+		"image"			"replay/thumbnails/hud/mouse1_icon"
 	}
 	"CycleTargetFwdLabel"
 	{
@@ -226,15 +226,15 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Mouse2Icon"
-		"xpos"			"30"
-		"ypos"			"47"
+		"xpos"			"28"
+		"ypos"			"46"
 		"zpos"			"1"
-		"wide"			"10"
-		"tall"			"10"
+		"wide"			"12"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"replay/thumbnails/hud/mouse2_icon_shadow"
+		"image"			"replay/thumbnails/hud/mouse2_icon"
 	}
 	"CycleTargetRevLabel"
 	{
@@ -257,15 +257,15 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"SpacebarIcon"
-		"xpos"			"16"
-		"ypos"			"52"
+		"xpos"			"21"
+		"ypos"			"55"
 		"zpos"			"1"
-		"wide"			"23"
-		"tall"			"23"
+		"wide"			"18"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"image"			"replay/thumbnails/hud/key_space_icon_shadow"
+		"image"			"replay/thumbnails/hud/key_space_icon"
 	}
 	"SwitchCamModeLabelPerma"
 	{

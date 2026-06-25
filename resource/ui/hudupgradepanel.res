@@ -667,7 +667,52 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
-	}	
+	}
+	
+	"QuickCloseButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"QuickCloseButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"center"
+		"textinsetx"	"50"
+		"Command"		"close"
+		"sound_depressed"	""
+		"sound_released"	""
+		"roundedcorners"	"0"
+		
+		"paintbackground"	"0"
+		
+		"dropshadow"		"1"
+		"dropshadowoffset"	"3"
+	}
+	
+	"QuickCloseReminderLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"QuickCloseReminderLabel"
+		"font"			"HudFontSmallestBold"
+		"labelText"		"#QuickCloseReminder"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"r50"
+		"wide"			"f0"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"TanLight"
+		"mouseinputenabled"	"0"		
+	}
 	
 	"TipPanel"
 	{

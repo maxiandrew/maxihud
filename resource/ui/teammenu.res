@@ -348,7 +348,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"HudFontMediumSmall"
+		"font"			"HudFontMediumBold"
 		"fgcolor"		"black"
 	}
 	
@@ -374,7 +374,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"HudFontSmallestShadow"
+		"font"			"TeamMenuSpectateFont"
 		"font_lodef"	"MenuSmallFont"
 		"fgcolor"		"white"
 	}
