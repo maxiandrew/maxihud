@@ -132,7 +132,7 @@ event HudLowAmmoPulseStop
 event HitmarkerFlash
 {
 	Animate "Hitmarker"				Alpha		"255"						Linear	0.0		0.00001
-	Animate "Hitmarker"				Alpha		"0"							Linear	0.10	0.10001
+	Animate "Hitmarker"				Alpha		"0"							Linear	0.15	0.10001
 }
 //===========================================
 event SurveyShowSequence

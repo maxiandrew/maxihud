@@ -623,6 +623,7 @@
 		"enabled"	"1"
 		"xpos"	"r145"
 		"ypos"	"0"
+		"zpos" "-5"
 		"wide"	"145"
 		"tall"	"400"
 		"item_wide"	"135"

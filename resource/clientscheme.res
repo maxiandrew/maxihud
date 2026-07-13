@@ -1,3 +1,4 @@
+#base "../../../cfg/maxihud/maxi_color_hitmarker.txt"
 #base "../../../cfg/maxihud/maxi_font.txt"
 #base "../../../cfg/maxihud/maxi_color_health.txt"
 #base "../../../cfg/maxihud/maxi_color_buff.txt"
@@ -12,7 +13,7 @@
 #base "../../../cfg/maxihud/maxi_color_crosshair.txt"
 #base "../../../cfg/maxihud/maxi_crosshair_edge.txt"
 #base "../../../cfg/maxihud/maxi_color_crosshair_flash.txt"
-#base "../../../cfg/maxihud/maxi_color_hitmarker.txt"
+
 #base "../../../cfg/maxihud/maxi_color_menu.txt"
 #base "../../../cfg/maxihud/maxi_menu_theme.txt"
 #base "scheme/base_scheme.res"

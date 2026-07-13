@@ -90,7 +90,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"TFFontSmall"
+		"font"			"16Uber"
 		"xpos"			"8"
 		"ypos"			"11"
 		"zpos"			"1"

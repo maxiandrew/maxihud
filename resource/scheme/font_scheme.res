@@ -4,11 +4,55 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
+		"24Uber"
+		{
+			"1"
+			{
+				"name"	"tf2uber"
+				"tall"	"24"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"0"
+			}
+		}			
+		"18Uber"
+		{
+			"1"
+			{
+				"name"	"tf2uber"
+				"tall"	"18"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"0"
+			}
+		}	
+		"16Uber"
+		{
+			"1"
+			{
+				"name"	"tf2uber"
+				"tall"	"16"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}	
+		"15Uber"
+		{
+			"1"
+			{
+				"name"	"tf2uber"
+				"tall"	"15"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}			
 		"m0refont30"
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"30"
 				"antialias" 								"1"
 			}
@@ -17,7 +61,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"30"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -27,7 +71,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"30"
 				"antialias" 								"1"
 				"outline" 									"1"
@@ -47,7 +91,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"16"
 				"antialias" 								"1"
 			}
@@ -56,7 +100,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"16"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -66,7 +110,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"18"
 				"antialias" 								"1"
 			}
@@ -75,7 +119,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"18"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -85,7 +129,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"18"
 				"antialias" 								"1"
 				"outline" 									"1"
@@ -105,7 +149,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"20"
 				"antialias" 								"1"
 			}
@@ -114,7 +158,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"20"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -124,7 +168,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"20"
 				"antialias" 								"1"
 				"outline" 									"1"
@@ -134,7 +178,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"22"
 				"antialias" 								"1"
 			}
@@ -143,7 +187,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"22"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -153,7 +197,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"22"
 				"antialias" 								"1"
 				"outline" 									"1"
@@ -163,7 +207,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"24"
 				"antialias" 								"1"
 			}
@@ -172,7 +216,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"24"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -182,7 +226,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"tf2buildedit"
 				"tall"										"24"
 				"antialias" 								"1"
 				"outline" 									"1"
@@ -556,7 +600,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -568,7 +612,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"35"
 				"weight"	"500"
 				"additive"	"0"
@@ -603,7 +647,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -627,7 +671,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -672,7 +716,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"22"
 				"weight"	"500"
 				"additive"	"0"
@@ -684,7 +728,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -696,7 +740,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -704,7 +748,7 @@ Scheme
 			}
 			"2" //800 x600
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -712,7 +756,7 @@ Scheme
 			}
 			"3" // 1280 x 960
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -721,7 +765,7 @@ Scheme
 			}
 			"4"  // 1920x1080
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"29"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -730,7 +774,7 @@ Scheme
 			}
 			"5" // 4k
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"29"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -773,7 +817,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -783,7 +827,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"14"  [$WINDOWS]
 				"tall"		"11" [$LINUX]
 				"weight"	"500"
@@ -794,7 +838,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"14"  [$WINDOWS]
 				"tall"		"11" [$LINUX]
 				"weight"	"500"
@@ -829,14 +873,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"10" 
 				"weight"	"500"
 				"additive"	"0"
 			}
 			"2"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -844,7 +888,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -853,7 +897,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -862,7 +906,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -874,7 +918,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -884,7 +928,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -894,7 +938,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -904,7 +948,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"9" [$WINDOWS]
 				"tall"		"8" [$LINUX]
 				"weight"	"0"
@@ -925,7 +969,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1339,7 +1383,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -1469,7 +1513,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1694,7 +1738,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"36"
 				"weight"	"500"
 			}
@@ -1703,7 +1747,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"30"
 				"weight"	"500"
 			}
@@ -1785,7 +1829,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -1886,7 +1930,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1896,7 +1940,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -1906,7 +1950,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -1916,7 +1960,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -1977,7 +2021,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -1987,7 +2031,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2420,7 +2464,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"10"
 				"weight"	"100"
 				"additive"	"0"
@@ -2430,7 +2474,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2450,7 +2494,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2472,7 +2516,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2482,7 +2526,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2551,7 +2595,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2563,7 +2607,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2575,7 +2619,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2587,7 +2631,7 @@ Scheme
         {
             "1"
             {
-                "name"      "TF2 Build"
+                "name"      "tf2buildedit"
                 "tall"      "24"
                 "weight"    "500"
                 "additive"  "0"
@@ -2599,7 +2643,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"32"
 				"weight"	"500"
 				"additive"	"0"
@@ -2611,7 +2655,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"32"
 				"weight"	"500"
 				"additive"	"0"
@@ -2623,7 +2667,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"9"
 				"weight"	"0"
 			}
@@ -2656,7 +2700,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"11"
 				"weight"	"500"
 			}
@@ -2666,7 +2710,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -2678,7 +2722,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"tf2buildedit"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -3098,8 +3142,8 @@ Scheme
 		}
 		"6" 
 		{
-		"font" "resource/tf2build.ttf"
-		"name" "TF2 Build"
+		"font" "resource/fonts/tf2buildedit.otf"
+		"name" "tf2buildedit"
 		
 			"russian"
 			{
@@ -3180,9 +3224,14 @@ Scheme
 		}
 		"icons"
 		{
+			"Font"		"resource/fonts/tf2uber.otf"
+			"name"		"tf2uber"
+		}		
+		"icons"
+		{
 			"Font"		"resource/fonts/m0rehud_icons.ttf"
 			"name"		"m0rehud_icons_v13"
-		}		
+		}				
 		"7" 
 		{
 		"font"	"resource/ocra.ttf"
