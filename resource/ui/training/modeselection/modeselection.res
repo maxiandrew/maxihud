@@ -59,7 +59,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeadhuntModeNameLabel"
 			"font"			"HudFontMediumSmallBold"
-			"labelText"		"Mercenary Mode"
+			"labelText"		"#HeadhuntLabel"
 			"textAlignment"	"center"
 			"xpos"			"-10"
 			"ypos"			"5"
@@ -79,7 +79,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeadhuntDescLabel"
 			"font"			"HudFontSmallest"
-			"labelText"		"Complete missions for either RED or BLU."
+			"labelText"		"#Headhunt_PracticeExplaination"
 			"textAlignment"	"north"
 			"xpos"			"8"
 			"ypos"			"35"
@@ -95,7 +95,7 @@
 			"wrap"				   "1"
 			"centerwrap"		   "1"
 		}
-	}	
+	}
 	
 	"WalkwayPanel"
 	{
@@ -115,7 +115,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"WalkwayModeNameLabel"
 			"font"			"HudFontMediumSmallBold"
-			"labelText"		"Walkway"
+			"labelText"		"#WalkwayLabel"
 			"textAlignment"	"center"
 			"xpos"			"-10"
 			"ypos"			"5"
@@ -135,7 +135,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"WalkwayDescLabel"
 			"font"			"HudFontSmallest"
-			"labelText"		"Practise your shots and skills while bots keep walking."
+			"labelText"		"#Walkway_PracticeExplaination"
 			"textAlignment"	"north"
 			"xpos"			"8"
 			"ypos"			"30"

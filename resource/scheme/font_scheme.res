@@ -2682,6 +2682,7 @@ Scheme
 				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
+				"dropshadow"	"1"
 			}
 		}
 		

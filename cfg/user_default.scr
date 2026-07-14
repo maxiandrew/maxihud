@@ -410,6 +410,14 @@ DESCRIPTION INFO_OPTIONS
 		{ "1" }
 	}
 	
+	"viewmodel_fov_demo"
+	{
+		"#TF_viewmodelfov_demo_option"
+		"#Tooltip_viewmodelfov_demo_option"
+		{ SLIDER 54 120 }
+		{ "1" }
+	}	
+	
 	"tf_spectator_target_location"
 	{
 		"#TF_Spectator_TargetID_Location"
